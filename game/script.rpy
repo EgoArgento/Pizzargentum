@@ -3,14 +3,9 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-
-
-
 transform bit_right:
     right
-    xoffset 150 
-define e = Character("Eileen")
-define V = Character("[povname]") 
+    xoffset 150
 
 define o1= Character("Organizador 1")
 define o2= Character("Organizador 2")
@@ -29,9 +24,13 @@ label start:
     # directory.
     " "
     $ povname = "Vos"
-    show vos orgulloso 
+    show protagonista sonriente:
+        zoom 0.2
+        xoffset -0.2
     V "..."
-    show vos orgulloso at left
+    show protagonista sonriente at left:
+        zoom 0.2
+        xoffset -0.2
     show organizador1 default at right:
         zoom 4
         xzoom -1
@@ -43,7 +42,7 @@ label start:
     show vos delirante:
         zoom 1.25
     V "No, es que no puede ser que yo no esté. "
-    o1 "(... ¿y a este qué le pasa?)"
+    o1 "(... ¿y a este qué le pasa? 🤌🏼🤌🏼🤌🏼🤌🏼)"
     o1 "Podriamos entonces revisar la lista de {i}invitados{/i}, señor.."
     $ povname = renpy.input("Mi nombre???", length=32)
 
@@ -81,7 +80,7 @@ label start:
     V "Todo comenzó cuando.."
     stop sound
     scene black with dissolve
-    # show eileen happy 
+    # show eileen happy
 
     # These display lines of dialogue.
 

@@ -39,8 +39,8 @@ RemoveNotes:False
 OutlineNotes:True
 ShowMargins:False
 ShowLineNumbers:False
-Cursor/Line:0
-Cursor/Column:0
+Cursor/Line:157
+Cursor/Column:15
 String/MoreDialogue:(MORE)
 String/ContinuedPageEnd:(CONTINUED)
 String/ContinuedPageStart:CONTINUED:
@@ -169,84 +169,306 @@ Locations:0
 Words:0
 #End-Spell-Checker-Dict 
 #Title-String 0.000000,105.000000,24,cb,Helvetica,,Pizzargentum
-#Title-String 0.000000,120.460000,12,c,Courier,,by\n\nMy Name Here
-#Title-String 15.000000,248.460000,12,,Courier,,123/456-7890\nno.such@thing.com
+#Title-String 0.000000,120.460000,12,c,Courier,,by\n\nGraziani Luciano\nBenvenuto Lujan\nGangi Mateo 
+#Title-String 15.000000,248.460000,12,,Courier,,
 #Header-String 1,0,r,,${PAGE}.
 #Header-Empty-Lines 1
 #Start-Script 
-.\INT. CENTRO DE CONVENCIONES PESCARA - DIA
->.PROTAGONISTA se encuentra frente a la mesa de registro del
->.concurso. Los organizadores lo observan sentados con gesto
->.indiferente. Se esuchan ruidos de bullicio y musica
-..italiana.
-..Se muestra un breve paneo de la escena.
-._Protagonista (23)
-.((Orgulloso de sí)
-.:...
+.\1.0 INT. ÁREA DE INSCRIPCIÓN A CONCURSO, PESCARA. 1990, DÍA.
+>.Recinto del ingreso al evento. Se escuchan ruidos de
+>.bullicio y música italiana de fondo. El PROTAGONISTA se
+>.presenta y se queda quieto frente a la mesa de inscripción.
+>.Los organizadores lo observan sentados. Se produce un
+..momento de silencio incómodo.
+._PROTAGONISTA
+.((Impaciente, sonriente)
+.:... ¿Y?
+>%Probar en renpy cómo se vería si los puntos suspensivos
+.%aparecen uno a uno sin parar y luego la ¿Y?
 ._Organizador 1 (27)
 .((Fastidiado/Indiferente)
-.:¿Si? ¿Se le ofrece algo muchacho?
+.: ¿Se le ofrece algo muchacho?
 ._PROTAGONISTA
 .((Impaciente, sonriente)
 >:¡Y claro! Quiero que me anoten al
-.:concurso acá y ahora.
+.:concurso. Acá y ahora.
+..El texto de "ahora" se sacude en pantalla y en negrita.
 ._ORGANIZADOR 2 (26)
-.((Atonita, entretenida)
->:Disculpe.. Señor. Como habrá de
->:conocer, la lista de concursantes
->:fue cerrada con dos meses de
-.:antelación.
+.((Atónita, entretenida)
+.:Disculpe...
+>%Los puntos suspensivos aparecen punto a punto cada uno
+.%con un intervalo de pausa.
+._ORGANIZADOR 2 (CONT'D)
+>:Señor. Como **sabrá**, la lista de
+>:concursantes fue cerrada con dos
+.:meses de antelación.
 ._PROTAGONISTA
 .((Delirante)
 >:No, es que no puede ser que yo no
-.:esté. 
+.:esté.
 ._ORGANIZADOR 1 
 .((Fastidiado/Indiferente)
-.:(... ¿y a este qué le pasa?)
+>:(¡¿Y a éste qué le pasa (emoji de
+.:mano)?!)
 ._ORGANIZADOR 1 (CONt'd)
->:Podriamos entonces revisar la lista
-.:de *invitados*, señor..
->.Apararece una caja de dialogo completable por el jugador, en
-..él, puede escribir el nombre que elija para el PROTAGONISTA.
+.((Condescendiente)
+>:En-TON-ces podríamos revisar la
+>:lista de **invitados**,
+.:señorrr...??
+..ORGANIZADOR 1 esboza una mueca de incredulidad.
 ._PROTAGONISTA
 .((delirante)
-.:¿¿Mi nombre?? ¡EL MAS GROSOOOO!
-..El texto de "¡El mas groso!" se sacude en pantalla.
-._ORGANIZADOR 2 
-.((atonita)
->:Señor, sin su nombre no es posible
-.:cerciorarse de
-..El PROTAGONISTA interrumpe a ORGANIZADOR 2.
-._PROTAGONISTA
-.((Enojado, propotente)
->:¿¿No se dan cuenta de quién soy,
-.:no?? 
->.ORGANIZADOR 1 y ORGANIZADOR 2 intercambian una mirada
-..incómoda.
+.:¡¿¡¿MÍ nombre?!?!
+>.El jugador debe escribir el nombre del PROTAGONISTA en un
+..campo de texto.
 ._PROTAGONISTA (CONT'D)
->:(La verdad no entiendo cómo esta
-.:gente consiguió un laburo)
->.ORGANIZADOR 1 y ORGANIZADOR 2 observan, confundidos a
-..PROTAGONISTA.
+.((delirante)
+.:¡EL MÁS GROSOOOO!
+>.El texto de "¡El más groso!" se sacude en pantalla con los
+..colores de Boca Jrs.
+._ORGANIZADOR 2 
+.((Atónita)
+>:Señor *El Más Groso*, sin su nombre
+.:no es posible cerciorarse de-
+..El PROTAGONISTA interrumpe a la ORGANIZADOR 2.
+._PROTAGONISTA
+.((Enojado, prepotente)
+>:¿¿No se dan cuenta de quién soy,
+.:no??
+>.ORGANIZADOR 1 y ORGANIZADOR 2 intercambian una mirada
+..incómoda mientras el PROTAGONISTA murmura por lo bajo.
+._PROTAGONISTA (CONT'D)
+.((Enojado, prepotente)
+>:*La verdad no entiendo cómo esta
+.:gente consiguió un laburo*
+>.Se escucha un sonido no diegético de un disco de pasta
+>.frenándose. Se corta toda la música. ORGANIZADOR 1 y
+..ORGANIZADOR 2 observan confundidos al PROTAGONISTA.
+._ORGANIZADOR 1 y 2
+.:Perdón, ¿qué has dicho?
 ._PROTAGONISTA (CONT'D)
 .((Impaciente, sonriente)
->: A ver, a ver, ¿ No ven mi
-.:delantal?
->.La camara se acerca dramaticamante a la inscripción en el
->.delantal, con una palpitación. Se escucha un sonido de
->.revelación dramatica, mientras la la musica se desvanece a
->."Dale Dale Boca" y los sonidos de bullicio se intencifican
-..ligeramente. 
+.: A ver, a ver, ¿No ven mi delantal?
+>.Se escucha un sonido de revelación dramática mientras la
+>.música se desvanece a "Dale Dale Boca" y los sonidos de
+..bullicio se intencifican ligeramente. 
 ._PROTAGONISTA (CONT'D)
 .((Impaciente, sonriente)
 .: Está bien, los veo interesados.
-._ORGANIZADOR 1 
+._ORGANIZADOR 1
 .:En realidad señor-
-..El PROTAGONISTA interrumpe a ORGANIZADOR 1.
+..PROTAGONISTA interrumpe a ORGANIZADOR 1.
 ._PROTAGONISTA
 .((Delirante)
 .:SHHHHHhhshHSH.
 ..Las letras en pantalla se mueven, simulando el sonido.
 ._PROTAGONISTA (CONT'D)
-.:Todo comenzó cuando..
+.:Todo comenzó cuando...
+>.Se escucha sonido de recuerdo. Mientras la cámara se funde a
+>.negro, se ve al ORGANIZADOR 1 cuestionando sus decisiones de
+..vida.
+./FADE TO BLACK
+.\2.1 INT. PIZZERIA CHIETTI - DIA
+._PROTAGONISTA
+.:(... Laburo de mierrrrda)
+>.Se escucha el ruido de una campanilla de entrada. El
+>.protagonista entra en una modesta pizzería. Se escucha
+..música tranquila y alegre.
+._PROTAGONISTA
+.((Impaciente, sonrriente)
+.:¿Holaaa?
+._PROTAGONISTA (CONT'D)
+.:¿Hay alguien che?
+._PROTAGONISTA (CONT'D)
+.((Fastidiado)
+.:Loco acá nadie hace nada.
+._PROTAGONISTA (CONT'D)
+>:(Me queda poco tiempo de descanso.
+>:Si espero mucho y vuelvo tarde, me
+.:rajan)
+..El jugador debe elegir entre quedarse o marcharse.
+..Si eligió QUEDARSE, entonces:
+._PROTAGONISTA
+>:Que me rajen, una depresión volver
+>:sin comer nada. No puede tardar
+.:tanto el tanito.
+>.Después de 15 minutos, el PROTAGONISTA ve la puerta de la
+..cocina entreabierta.
+._PROTAGONISTA
+.((Pícaro)
+.:UHH durmió.
+..Si eligió IRSE, entonces:
+._COSAS PARA HACER
+.%Asdas
+>.Si eligió quedarse, saltar a escena 3.1. Sino saltar a
+..escena 3.2.
+./FADE TO BLACK
+.\3.1 INT. COCINA PIZZERIA CHIETTI- Dia
+>.PROTAGONISTA se encuentra dentro de una pequeña cocina. En
+..ella, hay una pizza a medio hacer.
+._PROTAGONISTA
+.((Sorprendido)
+.:¿Y esto? ¿Se dejó media pizza?
+._PROTAGONISTA (CONT'D)
+.((Pícaro)
+>:Bueno, alguien la tiene que
+.:aprovechar.
+>%Podemos probar en usar alguna jerga de que se descuidó
+>%el cocinero. Pestañaste, cocodrilo que se durmió es
+>%cartera. Camarón que se duerme, se lo lleva la
+.%corrieeeenteee.
+._PROTAGONISTA (CONT'D)
+.((Enojado)
+>:Pará pero sigue crudo esto, nunca
+.:una bien.
+._PROTAGONISTA (CONT'D)
+.((Delirante)
+>:No puede ser muy  difícil esto, a
+.:ver...
+..Se escucha musica similar a "Pizzatron 3000", tarantela.
+._ELECCION
+.:¿Que quieres hacer con la pizza?
+..Colocale tomate
+._PROTAGONISTA
+.:Creo que esto llevaba tomate, ¿no?
+..Colocarle ananá
+._PROTAGONISTA
+.:¡APA! ¿¿Y esto??
+._ELECCION
+.:¿Qué quieres hacer con la pizza?
+..Colocarle anchoas
+._PROTAGONISTA
+>:Uuuuh esto tiene pinta de que es
+.:caro... Mejor aprobecho.
+..Colocarle queso
+._PROTAGONISTA
+>:Esto mas o menos tiene pinta de
+.:muzza.
+._ELECCION
+.:¿Como quieres terminar la pizza?
+..Meter la pizza al horno
+._PROTAGONISTA
+.:Ahí va, estaba medio palida.
+..Darle un besito para la buena suerte
+._PROTAGONISTA
+.:*muak* Grosa como papá.
+>.Si PROTAGONISTA creó la pizza clasica de muzzarella continua
+..en pagina X
+..Si PROTAGONISTA creó otra pizza, continua.
+._PROTAGONISTA
+.((Orgulloso)
+.:Casi que me da pena comerla...
+._PROTAGONISTA (CONT'D)
+.((Pensante)
+.:*crunch crunch*
+..Se escucha sonido de plato y masticación.
+._PROTAGONISTA (CONT'D)
+.((Delirante)
+.:NAAA, SOY UN GROSOOOOO
+>.Se escucha un ruido fuerte como de puerta, la musica cambia
+..a musica chistosa y frenetica.
+._Cocinero (52)
+.((Enojado)
+.:¿Y usted quién es?¡¿Qué hace acá?!
+._PROTAGONISTA
+.((Delirante)
+.:Taniiito, ¡ya tardaba mucho!
+._COCINERO 
+.((Enojado)
+>:¿Pero que dice? SALGA AHORA MISO DE
+.:MI COCINA.
+._PROTAGONISTA
+.((Delirante)
+>:Veníii, te dejo mirar nomas porque
+.:sos vos.
+._COCINERO 
+.((Enojado)
+.:PERO-
+..PROTAGONISTA interrumpe a COCINERO.
+._PROTAGONISTA
+.((Delirante)
+.:SHHHHHhhshHSH.
+..Las letras en pantalla se mueven, simulando el sonido.
+._PROTAGONISTA
+.((Delirante)
+.:Mirá, tremenda, ¿no?
+._COCINERO 
+.((Aterrado)
+.:¿¿Pero qué hizo??
+._PROTAGONISTA
+.((Delirante, pero más)
+.:¡Otra coronación de gloria!
+._COCINERO 
+.((Enojado)
+>:¡LE PIDO QUE SE VAYA O VOY A TENER
+.:QUE LLAMAR A LA POLICÍA!
+._PROTAGONISTA
+.((Delirante, pero más)
+.:¡Vení para acá y dame eso!
+>.Se escucha ruido de tela rota, PROTAGONISTA le arranca el
+..delantal a COCINERO.
+._COCINERO 
+>((Al borde de las
+.(lagrimas)
+.:¿PERO QUE HACE?
+._PROTAGONISTA
+.((Delirante)
+.:¿que hago? ¿QUÉ HAGO? JAJAJAJA
+..El texto de risas se sacude en pantalla.
+._PROTAGONISTA
+>((Delitante pero mas, con
+.(delantal)
+>:VOY A CONVERTIRME EN EL MEJOR EN LA
+.:PIZZA
+._PROTAGONISTA (CONT'D)
+.:¡EL CAPO DE LA PIZZA!
+..Se escucha sonido de fin de recuerdo.
+./FADE TO BLACK
+.\INT. CENTRO DE CONVENCIONES PESCARA - TARDE
+>.El protagonista y los organizadores se encuentran en las
+>.mismas posiciones que en la escena previa al relato. Retorna
+..la música inicial de la primera escena.
+._PROTAGONISTA
+.((Orgulloso)
+>:Y así el tanito reconoció su
+.:derrota y me regaló su delantal. 
+._ORGANIZADOR 2 
+.((confundida)
+.:¿y a que te referis con el mas ca
+..ORGANIZADOR1 interrumpe a ORGANIZADOR2
+._ORGANIZADOR 1 
+.((fastidiado, cansado)
+>:No le digas eso a ver si se queda
+.:hablando media hora más.
+._PROTAGONISTA
+.((ansioso)
+.:¿Y? Me van a anotar entonces?
+._ORGANIZADOR 1 
+.((fastidiado,cansado)
+>:Sí, señor... No se preocupe, no
+.:necesitamos mi nombre.
+._PROTAGONISTA
+.((delirandte) 
+.:(JA no necesitan mi nombre~)
+._ORGANIZADOR 1 
+>:Al final del pasillo. La
+>:competencia deberia estar epezando
+.:en cualquier momento
+._ORGANIZADOR 1 
+.((molesto)
+>:(Perdimos tanto tiempo con este
+>:inadaptado que solo consiguieron
+.:registrarse cuatro concursantes...)
+._ORGANIZADOR 1 (CONT'D)
+.((Cansado)
+>:(Está bien, no me pagan suficiente
+.:como para resolver eso)
+._PROTAGONISTA
+.((Orgulloso)
+>:¡No se diga mas! ¡Los voy a
+.:recordar cuando me haga famoso!
+._PROTAGONISTA (CONT'D)
+.((Exasperado)
+.:(Manga de giles)
+..Se escucha ruido de pasos y bullicio.
 ./FADE TO BLACK
