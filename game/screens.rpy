@@ -361,9 +361,9 @@ screen main_menu():
     frame:
         style "main_menu_frame"
 
-    add "gui/Tittle.png":
-        xalign 0.5  # Centers it horizontally
-        yalign 0.2  # Places it near the top
+    # add "gui/Tittle.png":
+    #     xalign 0.5  # Centers it horizontally
+    #     yalign 0.2  # Places it near the top
     ## The use statement includes another screen inside this one. The actual
     ## contents of the main menu are in the navigation screen.
     use navigation
@@ -390,7 +390,7 @@ style main_menu_frame:
     xsize 420
     yfill True
 
-    background "gui/overlay/main_menu.png"
+    # background "gui/overlay/main_menu.png"
 
 style main_menu_vbox:
     xalign 1.0

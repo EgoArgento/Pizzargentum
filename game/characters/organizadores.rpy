@@ -8,10 +8,20 @@ define organizador2 = Character(
     image="organizador2",
 )
 
-#
-image organizador1 normal = "images/organizador1 normal.png"
-image organizador1 sorprendido = "images/organizador1 sorprendido.png"
+# Trasnformations
+transform organizador_setup:
+    right
+    zoom 0.2
 
-image organizador2 normal = "images/organizador2 normal.png"
-image organizador2 enojada = "images/organizador2 enojada.png"
-image organizador2 desinteresada = "images/organizador2 desinteresada.png"
+transform organizador2_setup:
+    right
+    zoom 0.2
+    xoffset 250
+
+#
+image organizador1 normal = At("images/organizador1 normal.png", organizador_setup)
+image organizador1 sorprendido = At("images/organizador1 sorprendido.png", organizador_setup)
+
+image organizador2 normal = At("images/organizador2 normal.png", organizador2_setup)
+image organizador2 enojada = At("images/organizador2 enojada.png", organizador2_setup)
+image organizador2 desinteresada = At("images/organizador2 desinteresada.png", organizador2_setup)

@@ -17,7 +17,7 @@ default protagonista = MainCharacter()
 
 # Transformations
 transform character_setup:
-    xalign -0.1
+    left
     zoom 0.2
 
 #
