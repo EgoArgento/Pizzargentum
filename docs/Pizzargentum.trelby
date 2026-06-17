@@ -39,8 +39,8 @@ RemoveNotes:False
 OutlineNotes:True
 ShowMargins:False
 ShowLineNumbers:False
-Cursor/Line:1
-Cursor/Column:0
+Cursor/Line:79
+Cursor/Column:17
 String/MoreDialogue:(MORE)
 String/ContinuedPageEnd:(CONTINUED)
 String/ContinuedPageStart:CONTINUED:
@@ -252,6 +252,8 @@ Words:0
 ..Se escucha sonido de recuerdo.
 ./FADE TO BLACK
 .\2.INT. PIZZERIA CHIETTI - DIA
+>.Se lee el texto "Alguna vez, en Chietti""Un pueblucho muy
+..chiquito para mi"
 ._PROTAGONISTA
 .((Fastidiado)
 .:(...Laburo de mierda)
