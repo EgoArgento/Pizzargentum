@@ -8,6 +8,7 @@ label ch1_inscripcion:
 
     show protagonista normal
 
+    # Probar en renderizar punto por punto
     protagonista.c "..."
 
     show organizador1 normal
