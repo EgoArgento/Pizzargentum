@@ -39,8 +39,8 @@ RemoveNotes:False
 OutlineNotes:True
 ShowMargins:False
 ShowLineNumbers:False
-Cursor/Line:63
-Cursor/Column:20
+Cursor/Line:92
+Cursor/Column:10
 String/MoreDialogue:(MORE)
 String/ContinuedPageEnd:(CONTINUED)
 String/ContinuedPageStart:CONTINUED:
@@ -192,12 +192,12 @@ Words:0
 .:concurso. ¡Acá y ahora!
 ..El texto de "ahora" se sacude en pantalla y en negrita.
 ._ORGANIZADOR 2 (26)
-.((Atónita, entretenida)
+.((Desinteresada)
 >:Disculpe... Señor. Como **sabrá**,
 >:la lista de concursantes fue
 .:cerrada hace dos meses.
 ._PROTAGONISTA
-.((Delirante)
+.((Sorprendido)
 >:¡Cualquiera!¡No puede ser que yo no
 .:esté!
 ..ORGANIZADOR 1 susurra a ORGANIADOR 2.
@@ -206,10 +206,11 @@ Words:0
 >:(¡¿Y a este tío qué le pasa?!
 .:(emoji de mano))
 ._ORGANIZADOR 2
+.((Entretenida)
 .:*EHEM* (Quién sabe)
 ..ORGANIZADOR 1 se dirige al PROTAGONISTA.
 ._ORGANIZADOR 1 (CONt'd)
-.((Condescendiente)
+.((Desconfiado)
 >:En-TON-ces podríamos revisar la
 >:lista de **in-vi-ta-dos**,
 .:señorrr...??
@@ -229,7 +230,7 @@ Words:0
 .:de-
 ..El PROTAGONISTA interrumpe a la ORGANIZADOR 2.
 ._PROTAGONISTA
-.((Enojado, prepotente)
+.((Incrédulo)
 >:¿¿Posta no se dan cuenta de quién
 .:soy??
 >.ORGANIZADOR 1 y ORGANIZADOR 2 intercambian una mirada
@@ -253,18 +254,19 @@ Words:0
 ..bullicio se intencifican ligeramente.
 ._PROTAGONISTA (CONT'D)
 .((Impaciente, sonriente)
->:¡No se diga más! El pueblo me ha
->:llamado, siéntense los de la galera
-.:y escuchen esta osada historia.
+>:¡No se diga más! El pueblo me
+>:llama, siéntense los de la galera y
+.:escuchen esta osada historia.
 ._ORGANIZADOR 1
 .((Fastidiado)
 .:En realidad señor-
 ..PROTAGONISTA interrumpe a ORGANIZADOR 1.
 ._PROTAGONISTA
-.((Delirante)
+.((Enojado)
 .:SHHHHHhhshHSH...
 ..Las letras en pantalla se mueven, simulando el sonido.
 ._PROTAGONISTA (CONT'D)
+.((Sonriente)
 .:Todo comenzó cuando...
 >.Se escucha sonido de recuerdo. Mientras la cámara se funde a
 >.negro, se ven a los ORGANIZADOR 1 y 2 cuestionando sus
