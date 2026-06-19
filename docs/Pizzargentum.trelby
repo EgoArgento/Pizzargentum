@@ -39,8 +39,8 @@ RemoveNotes:False
 OutlineNotes:True
 ShowMargins:False
 ShowLineNumbers:False
-Cursor/Line:300
-Cursor/Column:3
+Cursor/Line:63
+Cursor/Column:20
 String/MoreDialogue:(MORE)
 String/ContinuedPageEnd:(CONTINUED)
 String/ContinuedPageStart:CONTINUED:
@@ -188,9 +188,8 @@ Words:0
 .((Indiferente)
 .:¿Se le ofrece algo muchacho?
 ._PROTAGONISTA
-.((Impaciente, sonriente)
 >:¡Y claro! Quiero que me anoten al
-.:concurso. Acá y ahora.
+.:concurso. ¡Acá y ahora!
 ..El texto de "ahora" se sacude en pantalla y en negrita.
 ._ORGANIZADOR 2 (26)
 .((Atónita, entretenida)
@@ -201,10 +200,14 @@ Words:0
 .((Delirante)
 >:¡Cualquiera!¡No puede ser que yo no
 .:esté!
+..ORGANIZADOR 1 susurra a ORGANIADOR 2.
 ._ORGANIZADOR 1 
 .((Fastidiado)
->:(¡¿Y a éste qué le pasa (emoji de
-.:mano)?!)
+>:(¡¿Y a este tío qué le pasa?!
+.:(emoji de mano))
+._ORGANIZADOR 2
+.:*EHEM* (Quién sabe)
+..ORGANIZADOR 1 se dirige al PROTAGONISTA.
 ._ORGANIZADOR 1 (CONt'd)
 .((Condescendiente)
 >:En-TON-ces podríamos revisar la
@@ -212,7 +215,7 @@ Words:0
 .:señorrr...??
 ._PROTAGONISTA
 .((Delirante)
-.:¡¿¡¿MÍ nombre?!?!
+.:¡¿¡¿MÍ autógrafo?!?!
 >.El jugador debe escribir el nombre del PROTAGONISTA en un
 ..campo de texto.
 ._PROTAGONISTA (CONT'D)
@@ -227,14 +230,14 @@ Words:0
 ..El PROTAGONISTA interrumpe a la ORGANIZADOR 2.
 ._PROTAGONISTA
 .((Enojado, prepotente)
->:¿¿Pero no se dan cuenta de quién
+>:¿¿Posta no se dan cuenta de quién
 .:soy??
 >.ORGANIZADOR 1 y ORGANIZADOR 2 intercambian una mirada
 ..incómoda mientras el PROTAGONISTA murmura por lo bajo.
 ._PROTAGONISTA (CONT'D)
 .((Enojado, prepotente)
 >:*La verdad que no entiendo cómo
-.:esta gente consiguió un laburo*
+.:esta gente consiguió laburo*
 >.Se escucha un sonido no diegético de un disco de pasta
 >.frenándose. Se corta toda la música. ORGANIZADOR 1 y
 >.ORGANIZADOR 2 miran confundidos al PROTAGONISTA y preguntan
@@ -269,7 +272,7 @@ Words:0
 ./FADE TO BLACK
 .\2. INT. PIZZERIA CHIETTI - DIA
 >.Se lee el texto "Alguna vez, en Chietti""Un pueblucho muy
-..chiquito para mi"
+..chiquito para mí"
 ._PROTAGONISTA
 .((Fastidiado)
 .:Laburo de @#$%&!

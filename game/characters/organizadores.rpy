@@ -19,9 +19,16 @@ transform organizador2_setup:
     xoffset 250
 
 #
-image organizador1 normal = At("images/organizador1 normal.png", organizador_setup)
+image organizador1 indiferente = At("images/organizador1 indiferente.png", organizador_setup)
 image organizador1 sorprendido = At("images/organizador1 sorprendido.png", organizador_setup)
 
-image organizador2 normal = At("images/organizador2 normal.png", organizador2_setup)
+image organizador2 entretenida = At("images/organizador2 entretenida.png", organizador2_setup)
 image organizador2 enojada = At("images/organizador2 enojada.png", organizador2_setup)
 image organizador2 desinteresada = At("images/organizador2 desinteresada.png", organizador2_setup)
+
+# Textos
+
+style susurro is text:
+    italic True
+    size 24
+    color "#333"

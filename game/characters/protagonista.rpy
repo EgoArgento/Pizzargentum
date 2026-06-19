@@ -21,7 +21,7 @@ transform character_setup:
     zoom 0.2
 
 #
-image protagonista normal = At("images/protagonista normal.png", character_setup)
+image protagonista sonriente = At("images/protagonista sonriente.png", character_setup)
 image protagonista enojado = At("images/protagonista enojado.png", character_setup)
 image protagonista levanta_cejas = At("images/protagonista levanta_cejas.png", character_setup)
 image protagonista sorprendido = At("images/protagonista sorprendido.png", character_setup)
