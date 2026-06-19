@@ -27,3 +27,9 @@ image protagonista incredulo = At("images/protagonista incredulo.png", character
 image protagonista sin_delantal = At("images/protagonista sin_delantal.png", character_setup)
 image protagonista sonriente = At("images/protagonista sonriente.png", character_setup)
 image protagonista sorprendido = At("images/protagonista sorprendido.png", character_setup)
+
+transform delantal_setup:
+    zoom 0.9
+    yoffset -50
+
+image delantal primer plano = At("images/delantal primer plano.png", delantal_setup)

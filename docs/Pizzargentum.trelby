@@ -39,8 +39,8 @@ RemoveNotes:False
 OutlineNotes:True
 ShowMargins:False
 ShowLineNumbers:False
-Cursor/Line:92
-Cursor/Column:10
+Cursor/Line:78
+Cursor/Column:23
 String/MoreDialogue:(MORE)
 String/ContinuedPageEnd:(CONTINUED)
 String/ContinuedPageStart:CONTINUED:
@@ -249,9 +249,10 @@ Words:0
 ._PROTAGONISTA (CONT'D)
 .((Impaciente, sonriente)
 .: A ver, a ver, ¿No ven mi delantal?
->.Se escucha un sonido de revelación dramatica, mientras la
->.música se desvanece a "Dale Dale Boca" y los sonidos de
-..bullicio se intencifican ligeramente.
+>.Se escucha un sonido de revelación dramatica al tiempo en
+>.que se ve en detalle al delantal y mientras la música se
+>.desvanece a "Dale Dale Boca" y los sonidos de bullicio se
+..intencifican ligeramente.
 ._PROTAGONISTA (CONT'D)
 .((Impaciente, sonriente)
 >:¡No se diga más! El pueblo me
@@ -269,8 +270,11 @@ Words:0
 .((Sonriente)
 .:Todo comenzó cuando...
 >.Se escucha sonido de recuerdo. Mientras la cámara se funde a
->.negro, se ven a los ORGANIZADOR 1 y 2 cuestionando sus
-..decisiones de vida.
+..negro, se ven a los ORGANIZADOR 1 y 2.
+._ORGANIZADOR 2
+.((Cansada)
+>:*No nos pagan suficiente como para
+.:resolver esto*.
 ./FADE TO BLACK
 .\2. INT. PIZZERIA CHIETTI - DIA
 >.Se lee el texto "Alguna vez, en Chietti""Un pueblucho muy

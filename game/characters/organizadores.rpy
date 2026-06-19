@@ -26,11 +26,13 @@ transform organizador2_setup:
     xoffset 250
 
 #
+image organizador1 cansado = At("images/organizador1 cansado.png", organizador_setup)
 image organizador1 desconfiado = At("images/organizador1 desconfiado.png", organizador_setup)
 image organizador1 enojado = At("images/organizador1 enojado.png", organizador_setup)
 image organizador1 indiferente = At("images/organizador1 indiferente.png", organizador_setup)
 image organizador1 sorprendido = At("images/organizador1 sorprendido.png", organizador_setup)
 
+image organizador2 cansada = At("images/organizador2 cansada.png", organizador2_setup)
 image organizador2 desinteresada = At("images/organizador2 desinteresada.png", organizador2_setup)
 image organizador2 enojada = At("images/organizador2 enojada.png", organizador2_setup)
 image organizador2 entretenida = At("images/organizador2 entretenida.png", organizador2_setup)

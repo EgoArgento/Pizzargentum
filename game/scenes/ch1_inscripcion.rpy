@@ -81,8 +81,17 @@ label ch1_inscripcion:
 
     protagonista.c sonriente "A ver, a ver, ¿No ven mi delantal?"
 
+    show delantal primer plano
+    window hide
+
     play music "audio/dalebo.mp3"
     play sound "audio/sfx/bullicio.mp3"
+
+    pause
+
+    window show
+
+    hide delantal
 
     protagonista.c "¡No se diga más! El pueblo me llama, siéntense los de la galera y escuchen esta osada historia."
 
@@ -98,10 +107,10 @@ label ch1_inscripcion:
 
     hide protagonista
 
-    show organizador1 indiferente:
+    show organizador1 cansado:
         xzoom -1
         xoffset -700
-    show organizador2 desinteresada:
+    show organizador2 cansada:
         xoffset -600
 
     organizador2 "{=susurro}No nos pagan lo suficiente como para resolver esto.{/=susurro}{nw}"
