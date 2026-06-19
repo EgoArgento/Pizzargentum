@@ -1,11 +1,7 @@
 image bg ch1 inscripcion = "images/backgrounds/ch1_inscripcion.png"
-image black = Solid("#000")
 
 # TODO: Configurar para que texto baja dentro de caja
 # TODO: Configurar colores de org1 org2 characters.
-
-# TODO: usar prota levanta_cejas
-# TODO: usar prota sorprendido
 
 label ch1_inscripcion:
     hide screen darkening_overlay

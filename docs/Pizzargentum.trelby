@@ -39,8 +39,8 @@ RemoveNotes:False
 OutlineNotes:True
 ShowMargins:False
 ShowLineNumbers:False
-Cursor/Line:78
-Cursor/Column:23
+Cursor/Line:136
+Cursor/Column:6
 String/MoreDialogue:(MORE)
 String/ContinuedPageEnd:(CONTINUED)
 String/ContinuedPageStart:CONTINUED:
@@ -277,28 +277,31 @@ Words:0
 .:resolver esto*.
 ./FADE TO BLACK
 .\2. INT. PIZZERIA CHIETTI - DIA
->.Se lee el texto "Alguna vez, en Chietti""Un pueblucho muy
-..chiquito para mí"
+>.Se lee el texto "Alguna vez, en Chietti"(Un pueblucho muy
+..chiquito para mí)
+./Fade in
 ._PROTAGONISTA
-.((Fastidiado)
-.:Laburo de @#$%&!
+.((No se ve)
+.:¡Laburo de @#$%&!
 >.Se escucha el ruido de una campana de entrada. El
 >.protagonista entra en una modesta pizzería. Se escucha
 ..música tranquila y alegre.
 ._PROTAGONISTA
-.((Impaciente, sonrriente)
+.((Impaciente, sonriente)
 .:¿Holaaa?
 ._PROTAGONISTA (CONT'D)
-.:¿Hay alguien che?
+.:¿Hay alguien acá?
 ._PROTAGONISTA (CONT'D)
 .((Fastidiado)
-.:Loco, ¿acá nadie labura o qué?
+.:Loco, ¿nadie labura acá o qué?
 ._PROTAGONISTA (CONT'D)
+.((Preocupado)
 >:(Me queda poco tiempo de descanso.
 >:Si espero mucho y vuelvo tarde me
 .:rajan)
 ..El jugador debe elegir entre quedarse o marcharse.
-..Si eligió QUEDARSE, entonces:
+..Si eligió IRSE, entonces: saltar a FINAL MALO 1.
+..Si eligió QUEDARSE, continuar:
 ._PROTAGONISTA
 >:Que me rajen, una depresión volver
 >:sin comer nada. No puede tardar
@@ -307,8 +310,7 @@ Words:0
 ..cocina entreabierta.
 ._PROTAGONISTA (CONT'D)
 .((Pícaro)
-.:UHH durmió.
-..Si eligió IRSE, entonces: saltar a FINAL MALO 1.
+.:UHH ¡Durmió!
 ./FADE TO BLACK
 .\3. INT. COCINA PIZZERIA CHIETTI- Dia
 >.PROTAGONISTA se encuentra dentro de una pequeña cocina. En
@@ -480,7 +482,7 @@ Words:0
 .\FINAL MALO 1
 ._Protagonista
 .((Molesto)
->:No se qué hago acá. No puedo perder
+>:No sé qué hago acá. No puedo perder
 .:el único trabajo que conseguí.
 ..El protagonista se marcha de la pizzería.
 ./Fin

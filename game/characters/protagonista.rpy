@@ -24,9 +24,13 @@ transform character_setup:
 image protagonista delirante = At("images/protagonista delirante.png", character_setup)
 image protagonista enojado = At("images/protagonista enojado.png", character_setup)
 image protagonista incredulo = At("images/protagonista incredulo.png", character_setup)
-image protagonista sin_delantal = At("images/protagonista sin_delantal.png", character_setup)
 image protagonista sonriente = At("images/protagonista sonriente.png", character_setup)
 image protagonista sorprendido = At("images/protagonista sorprendido.png", character_setup)
+image protagonista sin_delantal delirante = At("images/protagonista sin_delantal delirante.png", character_setup)
+image protagonista sin_delantal enojado = At("images/protagonista sin_delantal enojado.png", character_setup)
+image protagonista sin_delantal incredulo = At("images/protagonista sin_delantal incredulo.png", character_setup)
+image protagonista sin_delantal sonriente = At("images/protagonista sin_delantal sonriente.png", character_setup)
+image protagonista sin_delantal sorprendido = At("images/protagonista sin_delantal sorprendido.png", character_setup)
 
 transform delantal_setup:
     zoom 0.9
