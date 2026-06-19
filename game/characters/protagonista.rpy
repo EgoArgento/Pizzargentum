@@ -10,6 +10,8 @@ init python:
                 image="protagonista",
                 who_color="#F50106",
             )
+            self.ch3_minijuego_seleccion = []
+            self.ch3_karma = 0
         def get_name(self):
             return self.name
 

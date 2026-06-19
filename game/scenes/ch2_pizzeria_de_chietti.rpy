@@ -39,7 +39,7 @@ label ch2_pizzeria_de_chietti_cont:
     show screen darkening_overlay(0.2)
     pause 0.4
 
-    jump ch3_argentino_que_se_respeta_no_espera
+    jump ch3_argentino_que_se_respeta_no_espera_1
 
 label final_malo_1:
     protagonista.c sin_delantal enojado "No sé qué hago acá. No puedo perder el único trabajo que conseguí."

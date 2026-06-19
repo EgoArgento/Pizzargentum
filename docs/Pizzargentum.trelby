@@ -39,8 +39,8 @@ RemoveNotes:False
 OutlineNotes:True
 ShowMargins:False
 ShowLineNumbers:False
-Cursor/Line:136
-Cursor/Column:6
+Cursor/Line:172
+Cursor/Column:12
 String/MoreDialogue:(MORE)
 String/ContinuedPageEnd:(CONTINUED)
 String/ContinuedPageStart:CONTINUED:
@@ -330,7 +330,7 @@ Words:0
 .((Delirante)
 >:No puede ser muy difícil esto. A
 .:ver...
-.%A ESTO LE PONRES SALSA CRIOLLA Y QUEDA JOYA
+.%A ESTO LE PONÉS SALSA CRIOLLA Y QUEDA JOYA
 ..Se escucha música similar a "Pizzatron 3000", tarantela.
 ._ELECCIÓN
 >:¿Qué quieres hacer con la pizza?
@@ -347,7 +347,7 @@ Words:0
 .:caro... Mejor aprovecho.
 ..Si ELIGE "Colocarle queso", entonces:
 ._PROTAGONISTA
->:Esto mas o menos tiene pinta de
+>:Esto más o menos tiene pinta de
 .:muzza.
 ._ELECCIóN
 .:¿Cómo quieres terminar la pizza?
