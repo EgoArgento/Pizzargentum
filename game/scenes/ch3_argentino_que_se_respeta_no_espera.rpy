@@ -10,7 +10,6 @@ label ch3_argentino_que_se_respeta_no_espera_1:
     # TODO: agregar PÍCARO
     protagonista.c sin_delantal sonriente "¡Matanga! Alguien tiene que aprovechar."
     protagonista.c sin_delantal enojado "¡Pará! ¡Pero esto sigue crudo! ¡Nunca una bien!"
-    protagonista.c sin_delantal "¡Pará! ¡Pero essto sigue crudo! ¡Nunca una bien!"
     protagonista.c sin_delantal delirante "No puede ser muy difícil esto. A ver..."
 
     # TODO: meter la frase de salsa criolla y queda joya

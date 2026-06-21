@@ -39,8 +39,8 @@ RemoveNotes:False
 OutlineNotes:True
 ShowMargins:False
 ShowLineNumbers:False
-Cursor/Line:172
-Cursor/Column:12
+Cursor/Line:338
+Cursor/Column:0
 String/MoreDialogue:(MORE)
 String/ContinuedPageEnd:(CONTINUED)
 String/ContinuedPageStart:CONTINUED:
@@ -175,12 +175,17 @@ Words:0
 #Header-Empty-Lines 1
 #Start-Script 
 .@ACTO 1
-.\1.0 INT. ÁREA DE INSCRIPCIÓN A CONCURSO, PESCARA. 1990, DÍA
->.Recinto del ingreso al evento. Se escuchan ruidos de
->.bullicio y música italiana de fondo. El PROTAGONISTA se
->.presenta y se queda quieto frente a la mesa de inscripción.
->.Los organizadores lo observan sentados. Se produce un
-..momento de silencio incómodo.
+.\1. INT. ÁREA DE RECEPCIÓN A CONCURSO, PESCARA. 1990, DÍA
+>.Se escuchan ruidos de bullicio y música italiana de fondo.
+>.El PROTAGONISTA se presenta y se queda quieto frente a la
+>.mesa de inscripción. Los organizadores lo observan sentados.
+..Se produce un momento de silencio.
+.%Agregar todos los fade in/out
+.%Fade a silencio y poner sonido de grillos
+>%Los SHHH tienen que ser cada vez más grandes. Tienen
+.%que aparecer sifones.
+.%Agregar tiempo de fade out al final de escena 1
+.%Agregar guiño al sastrecito valiente?
 ._Protagonista (23)
 .((Impaciente, sonriente)
 .:... ¿Y?
@@ -213,10 +218,10 @@ Words:0
 .((Desconfiado)
 >:En-TON-ces podríamos revisar la
 >:lista de **in-vi-ta-dos**,
-.:señorrr...??
+.:¿¿señorrr...??
 ._PROTAGONISTA
 .((Delirante)
-.:¡¿¡¿MÍ autógrafo?!?!
+.:¡¡Obvio que te doy MÍ autógrafo!!
 >.El jugador debe escribir el nombre del PROTAGONISTA en un
 ..campo de texto.
 ._PROTAGONISTA (CONT'D)
@@ -276,9 +281,9 @@ Words:0
 >:*No nos pagan suficiente como para
 .:resolver esto*.
 ./FADE TO BLACK
-.\2. INT. PIZZERIA CHIETTI - DIA
->.Se lee el texto "Alguna vez, en Chietti"(Un pueblucho muy
-..chiquito para mí)
+.\2. INT. PIZZERIA, CHIETTI, DIA
+>.Se lee texto sobreimpreso "Alguna vez, en Chietti"(Un
+..pueblucho muy chiquito para mí)
 ./Fade in
 ._PROTAGONISTA
 .((No se ve)
@@ -312,7 +317,7 @@ Words:0
 .((Pícaro)
 .:UHH ¡Durmió!
 ./FADE TO BLACK
-.\3. INT. COCINA PIZZERIA CHIETTI- Dia
+.\3. INT. COCINA PIZZERIA, CHIETTI, Dia
 >.PROTAGONISTA se encuentra dentro de una pequeña cocina. En
 ..ella, hay una pizza a medio hacer.
 ._PROTAGONISTA
@@ -346,7 +351,7 @@ Words:0
 >:Uuuuh, esto tiene pinta de que es
 .:caro... Mejor aprovecho.
 ..Si ELIGE "Colocarle queso", entonces:
-._PROTAGONISTA
+._PROTAGONISTA  
 >:Esto más o menos tiene pinta de
 .:muzza.
 ._ELECCIóN
