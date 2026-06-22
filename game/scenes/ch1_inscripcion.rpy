@@ -1,6 +1,6 @@
 image bg ch1 inscripcion = "images/backgrounds/ch1_inscripcion.png"
 
-define bgm_ch1 = "audio/restaurante.mp3"
+define bgm_ch1_2 = "audio/restaurante.mp3"
 define bgm_dalebo = "audio/dalebo.mp3"
 define sfx_crickets = "audio/sfx/felix_quinol-cricket-sound-113945.ogg"
 define sfx_bullicio = "audio/sfx/bullicio.ogg"
@@ -13,7 +13,7 @@ define sfx_record_scratch = "audio/sfx/record_scratch-108233.ogg"
 label ch1_inscripcion:
     hide screen darkening_overlay
 
-    play music bgm_ch1 loop
+    play music bgm_ch1_2 loop
     play ambient sfx_murmuring_crowd volume 0.75
 
     scene bg ch1 inscripcion
@@ -70,7 +70,7 @@ label ch1_inscripcion:
     show organizador2 entretenida
 
     play sound sfx_organizador2_ehem
-    organizador2 "{=susurro}{i}*ehem*{/i} Quién sabe...{/=susurro}"
+    organizador2 "{=susurro}*ehem* Quién sabe...{/=susurro}"
 
     show organizador2 desinteresada:
         xoffset 0

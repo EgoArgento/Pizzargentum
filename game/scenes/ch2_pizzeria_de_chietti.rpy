@@ -1,9 +1,10 @@
 image bg ch2 pizzeria_interior_chieti = "images/backgrounds/ch2_pizzeria_interior_chieti.png"
+define abrir_puerta = "audio/sfx/door-open-close-with-bell-96884.ogg"
 
 label ch2_pizzeria_de_chietti:
     centered "Alguna vez en Chietti.\n{i}Un pueblucho muy chiquito para mí.{/i}"
 
-    play music "audio/restaurante.mp3" loop
+    play music bgm_ch1_2 loop
 
     scene bg ch2 pizzeria_interior_chieti
     hide screen darkening_overlay with dissolve
@@ -11,13 +12,13 @@ label ch2_pizzeria_de_chietti:
     protagonista.c "¡Laburo de @#$\%&!"
     window hide
 
-    play sound "audio/sfx/door-open-close-with-bell-96884.ogg"
+    play sound abrir_puerta
     pause 2.0
 
     show protagonista sin_delantal sonriente
     protagonista.c "¿Holaaa?"
     protagonista.c "¿Hay alguien acá?"
-    protagonista.c sin_delantal enojado "Loco, ¿nadie labura acá o qué?"
+    protagonista.c sin_delantal enojado "Loco, ¿nadie labura o qué?"
     protagonista.c sin_delantal incredulo "{=susurro}Me queda poco tiempo de descanso. Si espero mucho y vuelvo tarde me rajan.{/=susurro}"
 
     menu:
@@ -45,7 +46,7 @@ label final_malo_1:
     protagonista.c sin_delantal enojado "No sé qué hago acá. No puedo perder el único trabajo que conseguí."
 
     show screen darkening_overlay(1.0)
-    play sound "audio/sfx/door-open-close-with-bell-96884.ogg"
+    play sound abrir_puerta
     hide protagonista
 
     pause 2

@@ -8,7 +8,7 @@ label ch3_argentino_que_se_respeta_no_espera_1:
 
     protagonista.c "¿Y esto? ¿Se dejó media pizza?"
     # TODO: agregar PÍCARO
-    protagonista.c sin_delantal sonriente "¡Matanga! Alguien tiene que aprovechar."
+    protagonista.c sin_delantal sonriente "¡Matanga! Alguien la tiene que aprovechar."
     protagonista.c sin_delantal enojado "¡Pará! ¡Pero esto sigue crudo! ¡Nunca una bien!"
     protagonista.c sin_delantal delirante "No puede ser muy difícil esto. A ver..."
 
