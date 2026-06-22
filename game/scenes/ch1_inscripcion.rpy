@@ -2,10 +2,10 @@ image bg ch1 inscripcion = "images/backgrounds/ch1_inscripcion.png"
 
 define bgm_ch1 = "audio/restaurante.mp3"
 define bgm_dalebo = "audio/dalebo.mp3"
-define sfx_crickets = "audio/sfx/felix_quinol-cricket-sound-113945.mp3"
-define sfx_bullicio = "audio/sfx/bullicio.mp3"
-define sfx_murmuring_crowd = "audio/sfx/happy-crowd-at-interval-23485.mp3"
-define sfx_record_scratch = "audio/sfx/record_scratch-108233.mp3"
+define sfx_crickets = "audio/sfx/felix_quinol-cricket-sound-113945.ogg"
+define sfx_bullicio = "audio/sfx/bullicio.ogg"
+define sfx_murmuring_crowd = "audio/sfx/happy-crowd-at-interval-23485.ogg"
+define sfx_record_scratch = "audio/sfx/record_scratch-108233.ogg"
 
 # TODO: Configurar para que texto baja dentro de caja
 # TODO: Configurar colores de org1 org2 characters.
@@ -19,7 +19,9 @@ label ch1_inscripcion:
     scene bg ch1 inscripcion
 
     # TODO: mover de izq a dcha?
-    show protagonista sonriente
+    show protagonista sonriente:
+        xalign -0.5
+        easein 1 xalign 0.0
     window show
 
     pause 2.0
@@ -37,15 +39,17 @@ label ch1_inscripcion:
     protagonista.c incredulo "........."
 
     pause 1.0
-    play ambient sfx_crickets volume 3
+    play ambient sfx_crickets volume 2
+    play sound sfx_protagonista_tsk volume 2
 
     protagonista.c enojado "......... ¿Y?"
 
     stop sound
-    $ renpy.music.set_volume(1.0, delay=1.0)
-    play ambient sfx_murmuring_crowd volume 0.3
+    $ renpy.music.set_volume(0.7, delay=1.0)
+    play ambient sfx_murmuring_crowd volume 0.25
 
     show organizador1 indiferente
+    play sound sfx_organizador1_hmm volume 1.5
     organizador1 "¿Se le ofrece algo muchacho?"
 
     protagonista.c sonriente "¡Y claro! Quiero que me anoten al concurso. ¡Acá y {shader=jitter:1.0,6.0|wave:u__amplitude=3.0:u__frequency=6.0}{b}A H O R A{/b}{/shader}!"
@@ -58,13 +62,15 @@ label ch1_inscripcion:
     show organizador1 enojado:
         xzoom -1
 
+    play sound sfx_organizador1_huh
     organizador1 "{=susurro}¡¿Y a este tío qué le pasa?!{/=susurro} 🤌🏼🤌🏼🤌🏼🤌🏼"
 
     show organizador2 behind organizador1:
         xoffset -100
     show organizador2 entretenida
 
-    organizador2 "*EHEM* {=susurro}Quien sabe.{/=susurro}"
+    play sound sfx_organizador2_ehem
+    organizador2 "{=susurro}{i}*ehem*{/i} Quién sabe...{/=susurro}"
 
     show organizador2 desinteresada:
         xoffset 0

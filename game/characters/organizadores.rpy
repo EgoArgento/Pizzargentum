@@ -3,12 +3,15 @@ define organizador1 = Character(
     image="organizador1",
     who_color="#0f0",
 )
+define sfx_organizador1_huh = "audio/sfx/huh-002-120386-5.ogg"
+define sfx_organizador1_hmm = "audio/sfx/hmm-mhmm-76486.ogg"
 
 define organizador2 = Character(
     name="Organizadora",
     image="organizador2",
     who_color="#00f",
 )
+define sfx_organizador2_ehem = "audio/sfx/woman-clears-throat-411743.ogg"
 
 define organizador1y2 = Character(
     name="Organizador y Organizadora",

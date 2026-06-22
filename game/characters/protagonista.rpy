@@ -23,6 +23,8 @@ transform character_setup:
     zoom 0.2
 
 #
+define sfx_protagonista_tsk = "audio/sfx/tsk-37433.ogg"
+#
 image protagonista delirante = At("images/protagonista delirante.png", character_setup)
 image protagonista enojado = At("images/protagonista enojado.png", character_setup)
 image protagonista incredulo = At("images/protagonista incredulo.png", character_setup)

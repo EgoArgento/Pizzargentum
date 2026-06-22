@@ -64,6 +64,9 @@
 *.tif filter=lfs diff=lfs merge=lfs -text
 *.tiff filter=lfs diff=lfs merge=lfs -text
 
+# 3rd party apps
+*.starc filter=lfs diff=lfs merge=lfs -text
+
 # Collapse Unity-generated files on GitHub
 *.asset linguist-generated
 *.mat linguist-generated

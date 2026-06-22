@@ -39,8 +39,8 @@ RemoveNotes:False
 OutlineNotes:True
 ShowMargins:False
 ShowLineNumbers:False
-Cursor/Line:16
-Cursor/Column:8
+Cursor/Line:38
+Cursor/Column:41
 String/MoreDialogue:(MORE)
 String/ContinuedPageEnd:(CONTINUED)
 String/ContinuedPageStart:CONTINUED:
@@ -177,15 +177,18 @@ Words:0
 .@ACTO 1
 .\1. INT. ÁREA DE RECEPCIÓN A CONCURSO, PESCARA. 1990, DÍA
 >.Se escuchan ruidos de bullicio y música italiana de fondo.
->.El PROTAGONISTA se presenta y se queda quieto frente a la
->.mesa de inscripción. Los organizadores fuera de pantalla no
->.le prestan atención. Se produce una serie de momentos de
+>.Aparece el PROTAGONISTA por la izquierda y se queda quieto
+>.frente a la mesa de inscripción. Los organizadores fuera de
+>.pantalla no le prestan atención. Se produce un momento de
 ..silencio.
 >%Los SHHH tienen que ser cada vez más grandes. Tienen
 .%que aparecer sifones.
-.%Agregar tiempo de fade out al final de escena 1
 .%Agregar guiño al sastrecito valiente?
 .%Hacer que el prota entre desde la izq de la pantalla?
+.%Corregir el diálogo del autógrafo
+.%Agregar Música del mundial de italia
+.%Agregar SFX onomatopeyas
+.%REVISAR ADJETIVACIÓN DEL GUIÓN
 ._Protagonista (23)
 .((Sonriente)
 .:...
@@ -194,20 +197,22 @@ Words:0
 ._PROTAGONISTA (CONT'D)
 .((Incrédulo)
 .:.........
-..El sonido de grillos se intensifica.
+>.El sonido de grillos se intensifica. PROTAGONISTA chasquea
+..la lengua.
 ._PROTAGONISTA (CONT'D)
 .((Enojado)
 .:......... ¿Y?
 >.La música retoma su volumen normal al mismo tiempo que se
-..corta el sonido de grillos.
+>.corta el sonido de grillos. Se escucha a ORGANIZADOR 1 hacer
+..una mueca.
 ._Organizador 1 (27)
 .((Indiferente)
 .:¿Se le ofrece algo muchacho?
 ._PROTAGONISTA
 .((Sonriente)
 >:¡Y claro! Quiero que me anoten al
-.:concurso. ¡Acá y ahora!
-..El texto de "ahora" se sacude en pantalla y en negrita.
+.:concurso. ¡Acá y **ahora**!
+..El texto de "ahora" se sacude en pantalla.
 ._ORGANIZADOR 2 (26)
 .((Desinteresada)
 >:Disculpe... Señor. Como **sabrá**,
@@ -224,7 +229,7 @@ Words:0
 .:(emoji de mano))
 ._ORGANIZADOR 2
 .((Entretenida)
-.:*EHEM* (Quién sabe)
+.:(*ehem* Quién sabe...)
 >.ORGANIZADOR 1 y 2 miran con desconfianza al PROTAGONISTA.
 ..ORGANIZADOR 1 se dirige al PROTAGONISTA.
 ._ORGANIZADOR 1 (CONt'd)

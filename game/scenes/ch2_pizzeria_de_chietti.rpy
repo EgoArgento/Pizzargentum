@@ -11,7 +11,7 @@ label ch2_pizzeria_de_chietti:
     protagonista.c "¡Laburo de @#$\%&!"
     window hide
 
-    play sound "audio/sfx/door-open-close-with-bell-96884.mp3"
+    play sound "audio/sfx/door-open-close-with-bell-96884.ogg"
     pause 2.0
 
     show protagonista sin_delantal sonriente
@@ -45,7 +45,7 @@ label final_malo_1:
     protagonista.c sin_delantal enojado "No sé qué hago acá. No puedo perder el único trabajo que conseguí."
 
     show screen darkening_overlay(1.0)
-    play sound "audio/sfx/door-open-close-with-bell-96884.mp3"
+    play sound "audio/sfx/door-open-close-with-bell-96884.ogg"
     hide protagonista
 
     pause 2
