@@ -27,7 +27,7 @@ label ch2_pizzeria_de_chietti:
             jump final_malo_1
 
 label ch2_pizzeria_de_chietti_cont:
-    protagonista.c sin_delantal incredulo "Que me rajen, una depresion volver sin comer nada. No puede tardar tanto el tanito."
+    protagonista.c sin_delantal incredulo "Que me rajen, una depresión volver sin comer nada. No puede tardar tanto el tanito."
 
     # FIXME: PLEASE
     "WIP: añadir reloj que muestre que pasan 15 minutos."

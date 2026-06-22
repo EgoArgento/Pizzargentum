@@ -39,8 +39,8 @@ RemoveNotes:False
 OutlineNotes:True
 ShowMargins:False
 ShowLineNumbers:False
-Cursor/Line:338
-Cursor/Column:0
+Cursor/Line:320
+Cursor/Column:3
 String/MoreDialogue:(MORE)
 String/ContinuedPageEnd:(CONTINUED)
 String/ContinuedPageStart:CONTINUED:
@@ -180,7 +180,6 @@ Words:0
 >.El PROTAGONISTA se presenta y se queda quieto frente a la
 >.mesa de inscripción. Los organizadores lo observan sentados.
 ..Se produce un momento de silencio.
-.%Agregar todos los fade in/out
 .%Fade a silencio y poner sonido de grillos
 >%Los SHHH tienen que ser cada vez más grandes. Tienen
 .%que aparecer sifones.
@@ -305,7 +304,7 @@ Words:0
 >:Si espero mucho y vuelvo tarde me
 .:rajan)
 ..El jugador debe elegir entre quedarse o marcharse.
-..Si eligió IRSE, entonces: saltar a FINAL MALO 1.
+..Si eligió IRSE, entonces: saltar a 3.2.
 ..Si eligió QUEDARSE, continuar:
 ._PROTAGONISTA
 >:Que me rajen, una depresión volver
@@ -316,8 +315,10 @@ Words:0
 ._PROTAGONISTA (CONT'D)
 .((Pícaro)
 .:UHH ¡Durmió!
-./FADE TO BLACK
-.\3. INT. COCINA PIZZERIA, CHIETTI, Dia
+>.El PROTAGONISTA se mueve hacia la puerta al tiempo que se
+..hace zoom hacia ella.
+./CUT TO: cocina
+.\3.1. INT. COCINA PIZZERIA, CHIETTI, Dia
 >.PROTAGONISTA se encuentra dentro de una pequeña cocina. En
 ..ella, hay una pizza a medio hacer.
 ._PROTAGONISTA
@@ -435,7 +436,7 @@ Words:0
 .:¡EL CAPO DE LA PIZZA!
 ..Se escucha sonido de fin de recuerdo.
 ./FADE TO BLACK
-.\4. INT. CENTRO DE CONVENCIONES PESCARA - TARDE
+.\4.1. INT. ÁREA DE RECEPCIÓN A CONCURSO, PESCARA, tarde
 >.El protagonista y los organizadores se encuentran en las
 >.mismas posiciones que en la escena previa al relato. Retorna
 ..la música inicial de la primera escena.
@@ -484,14 +485,16 @@ Words:0
 .:recordar cuando me haga famoso!
 ..Se escucha ruido de pasos y bullicio.
 ./FADE TO BLACK
-.\FINAL MALO 1
+.\3.2. INT. COCINA PIZZERIA, CHIETTI, Dia
 ._Protagonista
 .((Molesto)
 >:No sé qué hago acá. No puedo perder
 .:el único trabajo que conseguí.
 ..El protagonista se marcha de la pizzería.
-./Fin
-.\FINAL MALO 2
+./FADE TO BLACK
+..Se lee el texto sobreimpreso "FIN".
+.\
+.\4.2. INT. ÁREA DE RECEPCIÓN A CONCURSO, PESCARA, tarde
 ._Protagonista
 .((Dudando)
 .:Bueno, mal olor no tiene.
@@ -521,7 +524,8 @@ Words:0
 .((fuera de pantalla)
 >:Me echaron a patadas y encima me
 .:olvidé la pizza adentro.
-./FIN
+./FADE TO BLACK
+..Se lee el texto sobreimpreso "FIN".
 .@ACTO 2
 .\5. INT. CENTRO DE CONVENCIONES PESCARA - Tarde
 >.El protagonista se encuentra en el recinto. Se escucha
