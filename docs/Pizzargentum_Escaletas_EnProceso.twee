@@ -1,0 +1,418 @@
+:: StoryTitle
+Pizzargentum
+
+
+:: StoryData
+{
+  "ifid": "97D22600-E6F0-4E6B-842D-F1352A9B48AE",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "1. Inscripción",
+  "zoom": 0.6
+}
+
+
+:: 1. Inscripción {"position":"1000,0","size":"100,100"}
+1. INTERIOR. ÁREA DE INSCRIPCIÓN A CONCURSO DE PIZZEROS, PESCARA. 1990, DÍA. El protagonista, argentino, intenta inscribirse a la fuerza al concurso. Los dos organizadores dudan porque no lo conocen y la lista ya está cerrada.
+
+(set: $name to (prompt: [Tu nombre, por favor:], "Mariano Ornos", "Gnome importa", "Anotáme bien, ¿querés?"))
+
+[[Iniciar Racconto ->2. Pizzería de Chieti]]
+
+
+:: 10.1 Tomate molotov {"position":"725,1325","size":"100,100"}
+10.1. INTERIOR. CONCURSO DE PIZZEROS, PESCARA. 1990, TARDE.
+Protagonista recuerda una especifica serie de latas de tomate que odiaba reponer, debido a la fecuencia con las que estas estallaban. Cuenta una version modificada de la anecdota. Beatrice malinterpreta esto y sobrestima el conocimiento del prtagonista. Beatrice acepta la derrota.
+
+El protagonista, indignado por ser llamado un farsante, busca probar su superioridad. 
+
+[[11. Ronda 3- Gonzalo Gombo]]
+
+
+
+:: 10.2 Un buen pizzero no le tiene miedo a la muerte {"position":"975,1325","size":"100,100"}
+10.2. INTERIOR. CONCURSO DE PIZZEROS, PESCARA. 1990, TARDE.
+El protagonista no entiende la pregunta. Decide que el miedo es cosa de mediocres y responde acorde. Se le deducen puntos por incentivar conductas irresponsables en la cocina. 
+
+El protagonista intenta probar que lo importante para la pizza es la pasión y no las normas. Beatrice logra exponer al protagonista.
+[[11. Ronda 3- Gonzalo Gombo]]
+
+
+:: 11. Ronda 3- Gonzalo Gombo {"position":"850,1475","size":"100,100"}
+11. INTERIOR. CONCURSO DE PIZZEROS, PESCARA. 1990, NOCHE.
+Aparece Gonzalo, confundiendo al protagonista por su actitud tranquila. Gonzalo intenta hacer al protagonista reflexionar sobre lo que significa formar parte del mundo de la pizza,preguntandole al protagonista qué hizo que Ego se convierta en el más grande.
+
+El protagonista intenta descifrar qué trama Gonzalo. Gonzalo ve potencial en el protagonista, e intenta lograr que mire más alla de si mismo.
+
+[[12.1 Soy como tu, tu eres igual]]
+[[12.2 Nadie como papá]]
+
+
+:: 12.1 Soy como tu, tu eres igual {"position":"675,1625","size":"100,100"}
+12.1 INTERIOR. CONCURSO DE PIZZEROS, PESCARA. 1990, NOCHE.
+El protagonista decide que si él es el mas grande, la respuesta que de sobre sí será mejor que cualquiese fuera la historia de Ego. El protagonista acierta. Gonzalo acepta la derrota.
+
+El protagonista muestra demostrar que es mejor que Ego. Gonzalo, satisfecho con la respuesta, le concede la victoria.
+
+[[13.1 El inicio de una leyenda]]
+[[13.2 Didi moto]]
+
+
+:: 12.2 Nadie como papá {"position":"975,1625","size":"100,100"}
+12.2 INTERIOR. CONCURSO DE PIZZEROS, PESCARA. 1990, NOCHE.
+
+El protagonista decide que no va a tolerar ser llamado inferior a Ego, y discute con Gonzalo. se le deducen puntos por mala conducta.
+
+El protagonista busca defender su orgullo. Gonzalo busca terminar el conflicto que el protagonista inició
+
+[[13.1 El inicio de una leyenda]]
+[[13.2 Didi moto]]
+
+
+:: 13.1 El inicio de una leyenda {"position":"725,1825","size":"100,100"}
+13.1  INTERIOR. CONCURSO DE PIZZEROS, PESCARA. 1990, NOCHE.
+El protagonista festeja su victoria y se propone destronar a Ego como proximo paso.
+
+El protagonista sintió su grandeza validada, ahora necesita un desafio real.
+
+
+:: 13.2 Didi moto {"position":"900,1825","size":"100,100"}
+13.2 INTERIOR. CONCURSO DE PIZZEROS, PESCARA. 1990, NOCHE.
+EL protagonista pierde la competencia. Revisa sus bolsillos y no le queda dinero. EL protagonista ve por la ventana del recinto una bicileta y decide "tomarla prestada" para empezar su empresa de delivery.
+
+
+:: 2. Pizzería de Chieti {"position":"1000,150","size":"100,100"}
+2. INTERIOR. BARRA DE PIZZERÍA, CHIETI. DÍA. El protagonista se encuentra completamente hambriento, solo y nadie responde a su estruendoso saludo. Se pregunta si esperar o no. El hambre no espera.
+
+- [[3.1. La espera no favorece a los osados]]
+- [[3.2. Argentino que se respeta no espera]]
+
+
+:: 3.1. La espera no favorece a los osados {"position":"1150,300","size":"100,100"}
+3.1. INTERIOR. BARRA DE PIZZERÍA, CHIETI. DÍA. El Argentino espera pero nunca nadie llega. Al final, se marcha sin almorzar directo a trabajar.
+
+[[2. Pizzería de Chieti]]
+
+
+:: 3.2. Argentino que se respeta no espera {"position":"850,300","size":"100,100"}
+3.2. INTERIOR. COCINA, PIZZERÍA DE CHIETI. DÍA. El Argentino se manda a la cocina sin pensar. No se ve a nadie más que a un bollo a medio amasar y los ingredientes preparados. Sin aguantar más el hambre, el Argentino se manda a cocinar su pizza. Se escucha una música entretenida de fondo. El jugador decide en qué orden debe realizar los pasos para cocinar la pizza.
+
+[[4.1. Chapuza de pizza]]
+[[4.2. El nacimiento del dios de la pizza]]
+
+
+:: 4.1. Chapuza de pizza {"position":"950,450","size":"100,100"}
+4.1. INTERIOR. COCINA, PIZZERÍA DE CHIETI. DÍA. Llega el chef, dueño de la pizzería, y descubre al Argentino cocinando. Lleno de ira cuestiona qué hace allí dentro. Ve el desastre de intento de pizza y lo hecha a patadas. Le prohíbe el acceso y lo denuncia. Lo extraditan de vuelta a Argentina.
+
+[[Volver a intentar->3.2. Argentino que se respeta no espera]]
+
+
+:: 4.2. El nacimiento del dios de la pizza {"position":"725,450","size":"100,100"}
+4.2. INTERIOR. COCINA, PIZZERÍA DE CHIETI. DÍA. Llega el chef, dueño de la pizzería, y descubre al Argentino en la cocina al grito de "//¡es la mejor pizza del mundo!//". El Argentino le hace probar la pizza y al quedar congelado del asombro, el Argentino le arranca el delantal de sus manos y se va corriendo de la pizzería.
+
+[[5. Inscripción: segunda vuelta]]
+
+
+:: 5. Inscripción: segunda vuelta {"position":"825,650","size":"100,100"}
+5. INTERIOR. ÁREA DE INSCRIPCIÓN A CONCURSO DE PIZZEROS, PESCARA. 1990, TARDE.
+El Argentino termina de contar su historia. Los organizadores lo incriben en la competencia y le indican el camino. El argentino se dirige a la competencia.
+
+
+Los organizadores quieren que el protagonista se marche. 
+
+[[6. Las reglas son relativas]]
+
+
+:: 6. Las reglas son relativas {"position":"850,825","size":"100,100"}
+6. INTERIOR. CONCURSO DE PIZZEROS, PESCARA. 1990, TARDE.
+El protagonista llega al recinto. Se explican las reglas del concurso .
+
+El protagonista quiere ganar el concurso sin conocer las reglas. 
+
+[[7. Ronda 1- Ramiro]]
+
+
+
+:: 7. Ronda 1- Ramiro {"position":"850,950","size":"100,100"}
+7. INTERIOR. CONCURSO DE PIZZEROS, PESCARA. 1990, TARDE.
+Aparece Ramiro Ravanello. Ravanello interroga al protagonista sobre tipos de pizza.
+
+Ravanello y el protagonista son agresivos. Buscan ganar la competencia.
+
+[[8.1 Ante la duda, boquita]]
+[[8.2 Pizza marinera]]
+
+
+:: 8.1 Ante la duda, boquita {"position":"750,1075","size":"100,100"}
+8.1 INTERIOR. CONCURSO DE PIZZEROS, PESCARA. 1990, TARDE.
+El protagonista, ante la pregunta de Ravanelli, lista el plantel de Boca Jrs. Ravanelli asume la derrota.
+El protagonista busca demostrar su superioridad. 
+[[9. Ronda 2- Beatrice]]
+
+
+:: 8.2 Pizza marinera {"position":"975,1075","size":"100,100"}
+8.2 INTERIOR. CONCURSO DE PIZZEROS, PESCARA. 1990, TARDE.
+El protagonista intenta nombrar distintos tipos de pizza y falla. Ravanelli de la ignorancia del protagonista.
+
+Ravanelli se enorgullece de su victoria. El protagonista resiente a toda la población italiana
+
+[[9. Ronda 2- Beatrice]] 
+
+
+:: 9. Ronda 2- Beatrice {"position":"850,1200","size":"100,100"}
+9. INTERIOR. CONCURSO DE PIZZEROS, PESCARA. 1990, TARDE.
+Aparece Beatrice. Custiona al protagonista sobre normas de seguridad e higiene. El protagonista se cuentiona qué tiene que ver eso con la pizza
+
+Beatrice busca exponer al protagonista como un farsante, el protagonista busca demostrar que es el mejor.
+
+[[10.1 Tomate molotov]]
+[[10.2 Un buen pizzero no le tiene miedo a la muerte]]
+
+
+:: Andá pallá bobo {"position":"325,2125","size":"100,100"}
+(set: $gombo to false)
+Nadie te banca más. Sos insoportable. ¿Ego? ¿Qué Ego? Emosido egocéntricos al palo, que me dí de frente contra la pared. Chau.
+
+[[Ojalá nos quede un peso pal tren a Roma->Viajar a Roma]]
+
+
+:: Beatrice Borragine {"position":"250,1650","size":"100,100"}
+(if:$ramiro)[Beatrice Borragine, de presencia inamovible, se presenta con respeto. Pretende cuestionarte sobre detalles técnicos, pero duda de si sería suficiente, vio tu enfrentamiento con Ramiro Ravanello y no lo pudo creer. Ni ella sabía sobre esas pizzas.]
+(else:)[Beatrice Borragine se presenta con aires severos y una presencia inamovible. Te cuestiona sobre detalles técnicos, sosteniendo que la perfección se construye en base a los detalles.]
+- [[Cosa random->Medio limón]].
+- [[Yo sé más, porque trabajé de repositor->Yo me saqué 10, en matemáticas]].
+
+
+:: Chauchas y palitos {"position":"325,1425","size":"100,100"}
+(set: $ramiro to false)
+(set: $total to 0)
+
+Ramiro se te burla, te mira con poca simpatía y te lanza chauchas y palitos por pena.
+
+[[Avanzar al segundo desafío->Beatrice Borragine]]
+
+
+:: D-d-d-d-duelo! {"position":"600,3100","size":"100,100"}
+(set: $desafio2 to (a:))
+
+Ego presenta el desafío. La única condición que pone es que tenés que usar tus propios ingredientes.
+
+(link: '- Amasar y estirar el bollo')[
+(set: $desafio2 to it + (a: 'amasar'))
+(if: $desafio2's length is 3)[
+(if: $desafio2's 1st is "amasar" and $desafio2's 2 is "salsa_tomate" and $desafio2's 3 is "pepperoni")[(go-to:"SegundoDesafioYay")]
+(else:)[(go-to:"SegundoDesafioNay")]
+]
+]
+(link: '- Poner la salsa de tomate')[
+(set: $desafio2 to it + (a: 'salsa_tomate'))
+(if: $desafio2's length is 3)[
+(if: $desafio2's 1st is "amasar" and $desafio2's 2 is "salsa_tomate" and $desafio2's 3 is "pepperoni")[(go-to:"SegundoDesafioYay")]
+(else:)[(go-to:"SegundoDesafioNay")]
+]
+]
+(link: '- Poner el pepperoni')[
+(set: $desafio2 to it + (a: 'pepperoni'))
+(if: $desafio2's length is 3)[
+(if: $desafio2's 1st is "amasar" and $desafio2's 2 is "salsa_tomate" and $desafio2's 3 is "pepperoni")[(go-to:"SegundoDesafioYay")]
+(else:)[(go-to:"SegundoDesafioNay")]
+]
+]
+
+
+
+:: Dale Boquitaa {"position":"75,1525","size":"100,100"}
+(set: $ramiro to true)
+(set: $total to 1)
+Te quedaste sin ideas. ¿Y ahora? ¡Obvio! Recitás la lista de los últimos 20 directores técnicos de Boquita. Ramiro, impresionado por tu conocimiento en variedades recónditas de pizza, asume la derrota.
+
+[[Avanzar al segundo desafío->Beatrice Borragine]]
+
+
+:: Duelincín {"position":"700,2900","size":"100,100"}
+Entrás al restaurante. Sentís un escalofrío y te decís a vos mismo que esto no es digno de vos, pero no estás seguro por qué pensas eso.
+
+[[D-d-d-d-duelo!]]
+
+
+:: Duelo de hombres {"position":"500,2900","size":"100,100"}
+Entrás al restaurante. Quedás maravillado de lo grande y digno de tu habilidad.
+
+[[D-d-d-d-duelo!]]
+
+
+:: Ego al 50% {"position":"700,2700","size":"100,100"}
+Tenés un aura poco imponente. El chef Ego te ve y se siente vergüenza.
+Te invita a un duelo de chef en su pizzería más pequeña.
+
+[[D-d-d-d-duelo!->Duelincín]]
+
+
+:: Ego is over 9000! {"position":"500,2700","size":"100,100"}
+Tenés un aura muy imponente. El chef Ego te ve y se siente amenazado.
+Te invita a un duelo de chef en su pizzería más grande.
+
+[[D-d-d-d-duelo!->Duelo de hombres]]
+
+
+:: Esperar {"position":"25,150","size":"100,100"}
+El pizzero no llega. Volvés tarde al trabajo, sin haber comido, y tu jefe te caga a pedos en un idioma que todavía no entendés muy bien.
+
+[[Volver a empezar->FC Comienzo]]
+
+
+:: FC Comienzo {"position":"200,0","size":"100,100"}
+Sos un argentino viviendo en Chieti en medio de un Work & Travel con el sueño de conseguir la ciudadanía y quedarte toda la vida allá.
+
+[[Entrar a tu Pizzería favorita ->Pizzería favorita]]
+
+
+:: Gonzalo Gombo {"position":"275,2000","size":"100,100"}
+Finalmente, en la última ronda, te enfrentás a Gonzalo Gombo, un joven de aspecto sereno y expresión amable. Esto automáticamente te desenfoca. Tus anteriores rivales eran lo que esperaba; Ramiro se notaba competitivo y Beatrice fue agresiva desde el inicio. ¿Pero Gonzalo? Desconcertante.
+
+Gonzalo te saluda cálidamente y comienzan el desafío. Gonzalo te cuestiona específicamente sobre Ego. Te confunde, la historia de vida de un pizzero -por mejor pizzero que fuese- no constituye a la calidad de la pizza. Gonzalo difiere, argumentando que si realmente te apasionáse la pizza, deberías apreciar todo el mundo que la rodea; un pizzero no es un pizzero solo, lo es gracias a todos aquellos que vinieron antes que él, a quienes se enfrenta y quienes luego vendrán con el pasar de los años.
+
+- [[Tomas demasiado aire y te ahogas->Andá pallá bobo]].
+- [[¿Guiensó Ego? ¡Ahora va a saber quién es papaaaaa!->Yo, yo y yo]].
+
+
+
+:: Medio limón {"position":"375,1750","size":"100,100"}
+(set: $beatrice to false)
+Dudás, tartamudeás y te vas por las ramas. Después de 10 segundos, Beatrice te mira con menosprecio y decide cortar un limón a la mitad, lanzarte uno de pena y al mismo tiempo estrujar la otra mitad en tu cara. No puede creer que temiese un poco tu presencia.
+
+[[Avanzar al tercer desafío->Gonzalo Gombo]]
+
+
+:: No esperar {"position":"100,500","size":"100,100"}
+Entrás a la cocina, ves el horno prendido y te mandás a hacer una pizza. El hambre es más fuerte. Tenés que elegir qué hacer. Como nunca hiciste una pizza, improvisás.
+
+[[A poner manos en la masa->Primer Desafío]]
+
+
+:: Pizzería favorita {"position":"100,300","size":"100,100"}
+Entrás a tu pizzería favorita y encontrás que está vacía. ¿Qué hacés?
+
+[[Esperar, porque siempre educado->Esperar]]
+
+[[Argentino que se respeta, no espera->No esperar]]
+
+
+:: Primer Desafío {"position":"100,700","size":"100,100"}
+(set: $desafio1 to (a:))
+
+¿Qué hacemos primero? ¡Primero siempre buena música! `Poner buena música tana? argentana?`
+
+(link: '- Amasar y estirar el bollo')[
+(set: $desafio1 to it + (a: 'amasar'))
+(if: $desafio1's length is 3)[
+(if: $desafio1's 1st is "amasar" and $desafio1's 2 is "salsa_tomate" and $desafio1's 3 is "pepperoni")[(go-to:"PrimerDesafioYay")]
+(else:)[(go-to:"PrimerDesafioNay")]
+]
+]
+(link: '- Poner la salsa de tomate')[
+(set: $desafio1 to it + (a: 'salsa_tomate'))
+(if: $desafio1's length is 3)[
+(if: $desafio1's 1st is "amasar" and $desafio1's 2 is "salsa_tomate" and $desafio1's 3 is "pepperoni")[(go-to:"PrimerDesafioYay")]
+(else:)[(go-to:"PrimerDesafioNay")]
+]
+]
+(link: '- Poner el pepperoni')[
+(set: $desafio1 to it + (a: 'pepperoni'))
+(if: $desafio1's length is 3)[
+(if: $desafio1's 1st is "amasar" and $desafio1's 2 is "salsa_tomate" and $desafio1's 3 is "pepperoni")[(go-to:"PrimerDesafioYay")]
+(else:)[(go-to:"PrimerDesafioNay")]
+]
+]
+
+
+
+:: PrimerDesafioNay {"position":"325,625","size":"100,100"}
+El pizzero se te ríe en la cara y te manda a comer a otro lado.
+
+FIN. [[Volver a empezar->FC Comienzo]]
+
+
+:: PrimerDesafioYay {"position":"100,900","size":"100,100"}
+Le sacás el delantal al chef y comenzás tu viaje.
+
+[[Comenzar a tu viaje->Viajar a Pescara]]
+
+
+:: Ramiro Ravanello {"position":"100,1300","size":"100,100"}
+Ramiro Ravanello, confundido por no conocerte, pero exaltado por la propuesta de un reto, te cuestiona con intensidad. Discute sobre qué tipos de pizza dominás.
+
+- [[Inventar nombres de pizza->Dale Boquitaa]].
+- [[Tomate y pepperoni->Chauchas y palitos]].
+
+
+:: Rappizza {"position":"900,2600","size":"100,100"}
+Te quedaste sin un mango, tu confianza está en el piso. Ya no sabés ni quién sos, ni por qué estás en Roma. Te dedicás a hacer delivery de pizza para juntar unos mangos.
+
+
+:: SegundoDesafioNay {"position":"700,3300","size":"100,100"}
+Chef Ego se niega a probar la pizza.
+
+Ego ordena a Cervero que te muerda en el traste y te heche de la pizzería por farsante.
+
+
+:: SegundoDesafioYay {"position":"500,3300","size":"100,100"}
+Chef Ego se niega a probar la pizza.
+
+if karma positivo
+
+La hija de Ego le gusta el aroma
+de la pizza y la prueba. Dice que
+la ama y convence al padre que la pruebe. Ego acepta la derrota y te
+convertís en el mejor pizzero de
+Roma. Ego te entrega las llaves del restaurante.
+
+ELSE
+
+La hija de Ego no le gusta el
+aroma de la pizza. Del asco, la lanza
+al suelo y Cervero se zambuella encima de ella y la devora. Te convencés en que tu habilidad es digna del mejor pizzero canino del mundo y te encaminás a
+una nueva aventura.
+
+
+:: Viajar a Pescara {"position":"100,1100","size":"100,100"}
+Llegás a Pescara.
+Hay una competición de pizzeros.
+Te anotás en una competición para demostrar tu habilidad.
+
+CARGÁS TU NOMBRE ACÁ Y LA HISTORIA LO USA.
+
+Tres pizzeros aspirantes te cuestionan.
+
+[[Empezar la competición->Ramiro Ravanello]]
+
+
+:: Viajar a Roma {"position":"700,2500","size":"100,100"}
+Después del agetreo de la competencia, te dirigís a Roma con los boletos que ganaste en la competencia.
+
+Se encuentra en el tren, imaginando cómo será su encuentro con Ego. Cuenta esto a la persona que ocupa el asiento a su lado. A la persona claramente no le interesa lo que dice, se le nota molesto, esperando que evitar el contacto visual diera la señal de falta de interés. Evidentemente no te afecta.
+
+(if: $total is 0)[[[Al llegar...->Rappizza]]](else-if: $total is 1)[[[Al llegar...->Ego al 50%]]](else:)[[[Al llegar...->Ego is over 9000!]]]
+
+
+:: Yo me saqué 10, en matemáticas {"position":"75,1850","size":"100,100"}
+(set: $beatrice to true)
+(set: $total to $total + 1)
+
+Recordás algunos nombres de productos y marcas gracias a tu trabajo como repositor. Recordás también la satisfacción que sentiste cuando descontinuaron una antigua línea de salsa enlatada, infame en su rubro por la facilidad con la que los envases cedían ante la presión de los contenidos, y el trabajo extra de limpieza que estos mismos generaban.
+
+Este conocimiento técnico te valió para vencer a tu contrincante. Beatrice lo medita brevemente: //si fue capaz de contestar todo eso sin dudar, ¿qué oportunidad tengo realmente de vencer?//
+
+[[Avanzar al tercer desafío->Gonzalo Gombo]]
+
+
+:: Yo, yo y yo {"position":"50,2175","size":"100,100"}
+(set: $gombo to true)
+(set: $total to $total + 1)
+Con un gesto tranquilo, socavas las preocupaciones de Gonzalo, diciendo que una simple pregunta no es rival para él. Gonzalo te mira confundido por el cambio repentino en tu expresión, pero continúa con el desafío.
+
+Gonzalo te pregunta por qué Ego se convirtió en el mejor pizzero. Desconoces la respuesta, no conoces a Ego, ni te importa particularmente conocerlo. No das importancia a la pregunta, escuchas en su lugar una invitación a explicar tu propia motivación. Cuentas en tercera persona, de manera muy vaga, pero lleno de orgullo, cómo te enfrentaste a la adversidad y la ambición que te llevó a querer alcanzar la gloria.
+
+Gonzalo te mira, no habla pero se le nota satisfecho. Te encuentras demasiado sumido en la euforia de tu inminente éxito como para realmente notar el cambio en Gonzalo. Gonzalo, satisfecho con la respuesta, te concede la victoria y te jactas de tu triunfo. Antes de irse, Gonzalo te entrega una pequeña botella de salsa de tomate que preparó personalmente.
+
+[[A Roma, campeón->Viajar a Roma]]
