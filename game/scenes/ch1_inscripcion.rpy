@@ -1,23 +1,54 @@
 image bg ch1 inscripcion = "images/backgrounds/ch1_inscripcion.png"
 
+define bgm_ch1 = "audio/restaurante.mp3"
+define bgm_dalebo = "audio/dalebo.mp3"
+define sfx_crickets = "audio/sfx/felix_quinol-cricket-sound-113945.mp3"
+define sfx_bullicio = "audio/sfx/bullicio.mp3"
+define sfx_murmuring_crowd = "audio/sfx/happy-crowd-at-interval-23485.mp3"
+define sfx_record_scratch = "audio/sfx/record_scratch-108233.mp3"
+
 # TODO: Configurar para que texto baja dentro de caja
 # TODO: Configurar colores de org1 org2 characters.
 
 label ch1_inscripcion:
     hide screen darkening_overlay
 
-    play music "audio/restaurante.mp3" loop
+    play music bgm_ch1 loop
+    play ambient sfx_murmuring_crowd volume 0.75
 
     scene bg ch1 inscripcion
 
+    # TODO: mover de izq a dcha?
     show protagonista sonriente
+    window show
 
-    protagonista.c "{w=0.3}.{w=0.3}.{w=0.3}.{w=0.6} {w=0}¿Y?"
+    pause 2.0
+
+    $ renpy.music.set_volume(volume=0.3, delay=3.0)
+    stop sound fadeout 0.3
+    pause 0.3
+    play ambient sfx_crickets volume 0.3
+
+    protagonista.c "..."
+
+    pause 1.0
+    play ambient sfx_crickets volume 1
+
+    protagonista.c incredulo "........."
+
+    pause 1.0
+    play ambient sfx_crickets volume 3
+
+    protagonista.c enojado "......... ¿Y?"
+
+    stop sound
+    $ renpy.music.set_volume(1.0, delay=1.0)
+    play ambient sfx_murmuring_crowd volume 0.3
 
     show organizador1 indiferente
     organizador1 "¿Se le ofrece algo muchacho?"
 
-    protagonista.c "¡Y claro! Quiero que me anoten al concurso. ¡Acá y {shader=jitter:1.0,6.0|wave:u__amplitude=3.0:u__frequency=6.0}{b}A H O R A{/b}{/shader}!"
+    protagonista.c sonriente "¡Y claro! Quiero que me anoten al concurso. ¡Acá y {shader=jitter:1.0,6.0|wave:u__amplitude=3.0:u__frequency=6.0}{b}A H O R A{/b}{/shader}!"
 
     show organizador2 desinteresada
     organizador2 "Disculpe{w=0.1}.{w=0.1}.{w=0.1}. Señor. Como {b}sabrá{/b}, la lista de concursantes fue cerrada hace dos meses."
@@ -43,7 +74,7 @@ label ch1_inscripcion:
 
     organizador1 "En-TON-ces podríamos revisar la lista de {b}{w=0.2}in{w=0.2}-vi{w=0.2}-ta{w=0.2}-dos{/b}, ¿¿señorrr...??"
 
-    protagonista.c delirante "¡¿¡¿MÍ autógrafo?!?!"
+    protagonista.c delirante "¡¡Obvio que te doy MÍ autógrafo!!"
 
     $ protagonista.name = renpy.input("{color=#111}Escribí tu autógrafo:{/color}", length=32).strip() or "Vos"
 
@@ -59,8 +90,8 @@ label ch1_inscripcion:
 
     protagonista.c incredulo "{=susurro}La verdad que no entiendo cómo esta gente consiguió laburo.{/=susurro}"
 
-    play sound "audio/sfx/record_scratch-108233.mp3"
     stop music
+    play sound sfx_record_scratch
 
     show organizador2 behind organizador1
     show organizador2 sorprendida
@@ -75,13 +106,13 @@ label ch1_inscripcion:
 
     organizador1y2 "Perdón, ¿qué has dicho?"
 
-    protagonista.c sonriente "A ver, a ver, ¿No ven mi delantal?"
+    protagonista.c sonriente "A ver, a ver, ¿no ven mi delantal?"
 
     show delantal primer plano
     window hide
 
-    play music "audio/dalebo.mp3"
-    play sound "audio/sfx/bullicio.mp3"
+    play music bgm_dalebo
+    play sound sfx_bullicio
 
     pause
 
@@ -97,9 +128,10 @@ label ch1_inscripcion:
 
     protagonista.c sonriente "Todo comenzó cuando..."
 
-    stop sound
-    stop music fadeout 3.0
-    show screen darkening_overlay(3.0)
+    stop sound fadeout 5.0
+    stop ambient fadeout 5.0
+    stop music fadeout 5.0
+    show screen darkening_overlay(7.0)
 
     hide protagonista
 
@@ -109,7 +141,7 @@ label ch1_inscripcion:
     show organizador2 cansada:
         xoffset -600
 
-    organizador2 "{=susurro}No nos pagan lo suficiente como para resolver esto.{/=susurro}{nw}"
+    organizador2 "{=susurro}No nos pagan lo suficiente como para resolver esto.{/=susurro}{w=5}{nw}"
 
     window hide
     hide organizador1

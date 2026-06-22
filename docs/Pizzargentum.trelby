@@ -39,8 +39,8 @@ RemoveNotes:False
 OutlineNotes:True
 ShowMargins:False
 ShowLineNumbers:False
-Cursor/Line:320
-Cursor/Column:3
+Cursor/Line:16
+Cursor/Column:8
 String/MoreDialogue:(MORE)
 String/ContinuedPageEnd:(CONTINUED)
 String/ContinuedPageStart:CONTINUED:
@@ -178,20 +178,33 @@ Words:0
 .\1. INT. ÁREA DE RECEPCIÓN A CONCURSO, PESCARA. 1990, DÍA
 >.Se escuchan ruidos de bullicio y música italiana de fondo.
 >.El PROTAGONISTA se presenta y se queda quieto frente a la
->.mesa de inscripción. Los organizadores lo observan sentados.
-..Se produce un momento de silencio.
-.%Fade a silencio y poner sonido de grillos
+>.mesa de inscripción. Los organizadores fuera de pantalla no
+>.le prestan atención. Se produce una serie de momentos de
+..silencio.
 >%Los SHHH tienen que ser cada vez más grandes. Tienen
 .%que aparecer sifones.
 .%Agregar tiempo de fade out al final de escena 1
 .%Agregar guiño al sastrecito valiente?
+.%Hacer que el prota entre desde la izq de la pantalla?
 ._Protagonista (23)
-.((Impaciente, sonriente)
-.:... ¿Y?
+.((Sonriente)
+.:...
+>.La música se apaga de a poco mientras que se escuchan unos
+..grillos.
+._PROTAGONISTA (CONT'D)
+.((Incrédulo)
+.:.........
+..El sonido de grillos se intensifica.
+._PROTAGONISTA (CONT'D)
+.((Enojado)
+.:......... ¿Y?
+>.La música retoma su volumen normal al mismo tiempo que se
+..corta el sonido de grillos.
 ._Organizador 1 (27)
 .((Indiferente)
 .:¿Se le ofrece algo muchacho?
 ._PROTAGONISTA
+.((Sonriente)
 >:¡Y claro! Quiero que me anoten al
 .:concurso. ¡Acá y ahora!
 ..El texto de "ahora" se sacude en pantalla y en negrita.
@@ -205,13 +218,14 @@ Words:0
 >:¡Cualquiera!¡No puede ser que yo no
 .:esté!
 ..ORGANIZADOR 1 susurra a ORGANIADOR 2.
-._ORGANIZADOR 1 
-.((Fastidiado)
+._ORGANIZADOR 1
+.((Enojado)
 >:(¡¿Y a este tío qué le pasa?!
 .:(emoji de mano))
 ._ORGANIZADOR 2
 .((Entretenida)
 .:*EHEM* (Quién sabe)
+>.ORGANIZADOR 1 y 2 miran con desconfianza al PROTAGONISTA.
 ..ORGANIZADOR 1 se dirige al PROTAGONISTA.
 ._ORGANIZADOR 1 (CONt'd)
 .((Desconfiado)
@@ -227,20 +241,20 @@ Words:0
 .((Delirante)
 .:¡EL MÁS GROOSOOOO!
 ..El texto se sacude en pantalla con los colores de Boca Jrs.
-._ORGANIZADOR 2 
-.((Atónita)
+._ORGANIZADOR 2
+.((Enojada)
 >:Señor *eL mÁs GrOsOo*, sin su
 >:nombre no es posible cerciorarse
 .:de-
 ..El PROTAGONISTA interrumpe a la ORGANIZADOR 2.
 ._PROTAGONISTA
-.((Incrédulo)
+.((Enojado)
 >:¿¿Posta no se dan cuenta de quién
 .:soy??
 >.ORGANIZADOR 1 y ORGANIZADOR 2 intercambian una mirada
 ..incómoda mientras el PROTAGONISTA murmura por lo bajo.
 ._PROTAGONISTA (CONT'D)
-.((Enojado, prepotente)
+.((Incrédulo)
 >:*La verdad que no entiendo cómo
 .:esta gente consiguió laburo*
 >.Se escucha un sonido no diegético de un disco de pasta
@@ -248,22 +262,22 @@ Words:0
 >.ORGANIZADOR 2 miran confundidos al PROTAGONISTA y preguntan
 ..al unísono.
 ._ORGANIZADOR 1 Y 2
-.((Confundido)
+.((Enojados)
 .:Perdón, ¿qué has dicho?
 ._PROTAGONISTA (CONT'D)
-.((Impaciente, sonriente)
-.: A ver, a ver, ¿No ven mi delantal?
->.Se escucha un sonido de revelación dramatica al tiempo en
+.((Sonriente)
+.: A ver, a ver, ¿no ven mi delantal?
+>.Se escucha un sonido de revelación dramática al tiempo en
 >.que se ve en detalle al delantal y mientras la música se
 >.desvanece a "Dale Dale Boca" y los sonidos de bullicio se
-..intencifican ligeramente.
+..intencifican.
 ._PROTAGONISTA (CONT'D)
-.((Impaciente, sonriente)
+.((Sonriente)
 >:¡No se diga más! El pueblo me
 >:llama, siéntense los de la galera y
 .:escuchen esta osada historia.
 ._ORGANIZADOR 1
-.((Fastidiado)
+.((Enojado)
 .:En realidad señor-
 ..PROTAGONISTA interrumpe a ORGANIZADOR 1.
 ._PROTAGONISTA
@@ -274,7 +288,7 @@ Words:0
 .((Sonriente)
 .:Todo comenzó cuando...
 >.Se escucha sonido de recuerdo. Mientras la cámara se funde a
-..negro, se ven a los ORGANIZADOR 1 y 2.
+..negro, se ven a los ORGANIZADOR 1 y 2 cansados.
 ._ORGANIZADOR 2
 .((Cansada)
 >:*No nos pagan suficiente como para
@@ -352,7 +366,7 @@ Words:0
 >:Uuuuh, esto tiene pinta de que es
 .:caro... Mejor aprovecho.
 ..Si ELIGE "Colocarle queso", entonces:
-._PROTAGONISTA  
+._PROTAGONISTA
 >:Esto más o menos tiene pinta de
 .:muzza.
 ._ELECCIóN
@@ -364,7 +378,7 @@ Words:0
 ._PROTAGONISTA
 .:*muak* ¡Grosa como **papá**!
 >.Si PROTAGONISTA creó la pizza clásica de muzzarella,
-..continúa a FINAL MALO 2.
+..continúa a 4.2.
 ..Si PROTAGONISTA creó otra pizza, continúa.
 ._PROTAGONISTA
 .((Orgulloso)
@@ -384,7 +398,7 @@ Words:0
 ._PROTAGONISTA
 .((Delirante)
 .:Taniiito, ¡ya tardabas mucho!
-._COCINERO 
+._COCINERO
 .((Enojado)
 >:¿Pero qué dice? SALGA AHORA MISMO
 .:DE MI COCINA.
@@ -392,7 +406,7 @@ Words:0
 .((Delirante)
 >:Veníii, te dejo mirar nomás porque
 .:sos vos.
-._COCINERO 
+._COCINERO
 .((Enojado)
 .:PERO-
 ..PROTAGONISTA interrumpe al COCINERO.
@@ -404,13 +418,13 @@ Words:0
 ._PROTAGONISTA
 .((Delirante)
 .:Mirá, tremenda, ¿no?
-._COCINERO 
+._COCINERO
 .((Aterrado)
 .:¿¿Pero qué hizo??
 ._PROTAGONISTA
 .((Delirante, fortíssimo)
 .:¡Otra coronación de gloria!
-._COCINERO 
+._COCINERO
 .((Enojado)
 >:¡LE PIDO QUE SE VAYA O VOY A TENER
 .:QUE LLAMAR A LA POLICÍA!
@@ -419,7 +433,7 @@ Words:0
 .:¡Vení para acá y dame eso!
 >.Se escucha ruido de tela rota, PROTAGONISTA le arranca el
 ..delantal al COCINERO.
-._COCINERO 
+._COCINERO
 >((Al borde de las
 .(lágrimas)
 .:¿PERO QUÉ HACE?
@@ -444,11 +458,11 @@ Words:0
 .((Orgulloso)
 >:Y así, el tanito reconoció su
 .:derrota y me regaló su delantal. 
-._ORGANIZADOR 2 
+._ORGANIZADOR 2
 .((Confundida)
 .:¿y a qué te referis con el más ca-
 ..ORGANIZADOR1 interrumpe a ORGANIZADOR2
-._ORGANIZADOR 1 
+._ORGANIZADOR 1
 .((Fastidiado, cansado)
 >:*No le sigas la corriente, ¡a ver
 >:si se queda hablando media hora
@@ -457,7 +471,7 @@ Words:0
 .((Ansioso)
 >:¿Y? ¿Me van a anotar, o me van a
 .:**anotar**?
-._ORGANIZADOR 1 
+._ORGANIZADOR 1
 .((Fastidiado, cansado)
 >:Sí, señor... No se preocupe.
 >:Tampoco necesitamos que nos diga su
@@ -467,11 +481,11 @@ Words:0
 >:*¡JA! ¡Sabían mi nombre~! ¡Solo
 >:querían que les contase YO MÍSMO mí
 .:historia!*
-._ORGANIZADOR 1 
+._ORGANIZADOR 1
 >:Al final del pasillo. La
 >:competencia debería estar empezando
 .:en cualquier momento.
-._ORGANIZADOR 1 
+._ORGANIZADOR 1
 .((Molesto)
 >:Perdimos tanto tiempo con este
 .:loco... 
@@ -493,7 +507,6 @@ Words:0
 ..El protagonista se marcha de la pizzería.
 ./FADE TO BLACK
 ..Se lee el texto sobreimpreso "FIN".
-.\
 .\4.2. INT. ÁREA DE RECEPCIÓN A CONCURSO, PESCARA, tarde
 ._Protagonista
 .((Dudando)
@@ -505,7 +518,7 @@ Words:0
 ._PROTAGONISTA
 .((Nervioso)
 .:Taniiito, ¡ya tardaba mucho!
-._COCINERO 
+._COCINERO
 .((Enojado)
 >:¿Pero qué dice? ¡SALGA AHORA MISMO
 .:DE MI COCINA!
@@ -515,7 +528,7 @@ Words:0
 ._PROTAGONISTA
 .((Nervioso)
 .:(Ya fuí)
-._COCINERO 
+._COCINERO
 .((Enojado)
 .:¡SALGA AHORA!
 ./Fade to black
