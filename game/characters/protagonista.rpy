@@ -12,8 +12,19 @@ init python:
             )
             self.ch3_minijuego_seleccion = []
             self.ch3_karma = 0
+
         def get_name(self):
             return self.name
+
+        # Función para aplicar migración de datos.
+        # Llegado el caso de que realicemos cambios
+        # en la estructura, con esta función nos aseguramos
+        # que las partidas guardadas no quedarán rotas.
+        def migrar_data(self):
+            if hasattr(self,'ch3_minijuego_seleccion') is False:
+                self.ch3_minijuego_seleccion = []
+            if hasattr(self,'ch3_karma') is False:
+                self.ch3_karma = 0
 
 default protagonista = MainCharacter()
 

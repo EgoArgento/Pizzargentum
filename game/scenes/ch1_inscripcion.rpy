@@ -89,8 +89,6 @@ label ch1_inscripcion:
 
     show organizador1 enojado behind organizador2
 
-    # TODO: hacer que el diálogo sea más lento pero que siga
-    # cortándose a la fuerza
     organizador2 enojada "Señor {shader=wave}{i}eL mÁs GrOsO{/i}{/shader}{w=0.4}, sin su nombre no es posible cerciorarse de-{w=0.2}{nw}"
 
     protagonista.c enojado "¿¿Posta no se dan cuenta de quién soy??"
