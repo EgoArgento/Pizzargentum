@@ -84,15 +84,20 @@ label ch1_inscripcion:
 
     $ protagonista.name = renpy.input("{color=#111}Escribí tu autógrafo:{/color}", length=32).strip() or "Vos"
 
-    protagonista.c "{shader=jitter:u__jitter=5.0, 9.0}{color=#103F79}¡EL {color=#DAFF00}MAS{/color} {color=#103F79}GROSOOOO!{/color}{/color}{/shader}"
+    protagonista.c "¡ACÁ ESTÁAA!"
+    protagonista.c "{shader=jitter:5.0,9.0}{color=#103F79}¡EL {color=#DAFF00}MÁS{/color} GROSOOOO!{/color}{/shader}"
 
-    show organizador1 behind organizador2
+    show organizador1 enojado behind organizador2
 
     # TODO: hacer que el diálogo sea más lento pero que siga
     # cortándose a la fuerza
     organizador2 enojada "Señor {shader=wave}{i}eL mÁs GrOsO{/i}{/shader}{w=0.4}, sin su nombre no es posible cerciorarse de-{w=0.2}{nw}"
 
     protagonista.c enojado "¿¿Posta no se dan cuenta de quién soy??"
+
+    show organizador1 desconfiado:
+        xzoom -1
+    show organizador2 desinteresada
 
     protagonista.c incredulo "{=susurro}La verdad que no entiendo cómo esta gente consiguió laburo.{/=susurro}"
 
