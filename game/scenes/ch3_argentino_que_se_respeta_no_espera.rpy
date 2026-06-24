@@ -2,11 +2,12 @@ image bg ch3 pizzeria_cocina_chieti = "images/backgrounds/ch3_pizzeria_cocina_ch
 
 define bgm_ch3 = "audio/pizzatron_3000.ogg"
 
-label ch3_argentino_que_se_respeta_no_espera_1:
+label ch3_1_argentino_que_se_respeta_no_espera:
     scene bg ch3 pizzeria_cocina_chieti
     hide screen darkening_overlay with dissolve
 
-    show protagonista sin_delantal sorprendido
+    # TODO: agregar SORPRENDIDO
+    show protagonista sin_delantal sonriente
 
     protagonista.c "¿Y esto? ¿Se dejó media pizza?"
     # TODO: agregar PÍCARO
@@ -25,7 +26,7 @@ label ch3_argentino_que_se_respeta_no_espera_1:
     jump ch3_minijuego_pizza_1
 
 label ch3_minijuego_pizza_1:
-    show screen timed_choice(3.0, Jump("final_malo_2"))
+    show screen timed_choice(3.0, Jump("ch4_2_la_vieja_confiable_fallo"))
 
     menu:
         protagonista.c sin_delantal sonriente "¿Qué puedo hacer con esta pizza?"
@@ -35,6 +36,7 @@ label ch3_minijuego_pizza_1:
             $ protagonista.ch3_karma -= 5
             $ protagonista.ch3_minijuego_seleccion.append("tomate")
             protagonista.c sin_delantal sonriente "Creo que esto llevaba tomate, ¿no?"
+
             if len(protagonista.ch3_minijuego_seleccion) < 2:
                 jump ch3_minijuego_pizza_1
             else:
@@ -42,9 +44,12 @@ label ch3_minijuego_pizza_1:
 
         "Colocarle ananá" if "anana" not in protagonista.ch3_minijuego_seleccion:
             hide screen timed_choice
+
             $ protagonista.ch3_karma += 5
             $ protagonista.ch3_minijuego_seleccion.append("anana")
+
             protagonista.c sin_delantal sonriente "¡APA! ¿¿Y esto??"
+
             if len(protagonista.ch3_minijuego_seleccion) < 2:
                 jump ch3_minijuego_pizza_1
             else:
@@ -54,7 +59,9 @@ label ch3_minijuego_pizza_1:
             hide screen timed_choice
             $ protagonista.ch3_karma += 5
             $ protagonista.ch3_minijuego_seleccion.append("anchoas")
-            protagonista.c sin_delantal sonriente "Uuuuh, esto tiene pinta de que es caro... Mejor aprovecho."
+
+            protagonista.c sin_delantal sonriente "Uuuuh, tiene pinta de caro... Mejor aprovecho."
+
             if len(protagonista.ch3_minijuego_seleccion) < 2:
                 jump ch3_minijuego_pizza_1
             else:
@@ -65,6 +72,7 @@ label ch3_minijuego_pizza_1:
             $ protagonista.ch3_karma -= 5
             $ protagonista.ch3_minijuego_seleccion.append("queso")
             protagonista.c sin_delantal sonriente "Esto más o menos tiene pinta de muzza."
+
             if len(protagonista.ch3_minijuego_seleccion) < 2:
                 jump ch3_minijuego_pizza_1
             else:
@@ -74,7 +82,7 @@ label ch3_minijuego_pizza_2:
     if "anana" in protagonista.ch3_minijuego_seleccion and "anchoas" in protagonista.ch3_minijuego_seleccion:
         protagonista.c sin_delantal delirante "¡A ESTO LE PONÉS SALSA CRIOLLA Y QUEDA JOYA!"
 
-    show screen timed_choice(3.0, Jump("final_malo_2"))
+    show screen timed_choice(3.0, Jump("ch4_2_la_vieja_confiable_fallo"))
 
     menu:
         protagonista.c sin_delantal sonriente "¿Cómo termino la pizza?"
@@ -83,27 +91,13 @@ label ch3_minijuego_pizza_2:
             hide screen timed_choice
             $ protagonista.ch3_karma -= 5
             protagonista.c sin_delantal sonriente "¡Ahí va! Estaba medio paliducha."
-            jump ch3_argentino_que_se_respeta_no_espera_2
+
+            jump ch4_1_el_nacimiento_del_dios_de_la_pizza
 
         "Darle un besito para la buena suerte":
             hide screen timed_choice
             $ protagonista.ch3_karma += 5
             # TODO: agregar SFX de muak
             protagonista.c sin_delantal sonriente "*muak* ¡Grosa como {b}papáaa{/b}!"
-            jump ch3_argentino_que_se_respeta_no_espera_2
 
-label ch3_argentino_que_se_respeta_no_espera_2:
-    if protagonista.ch3_karma == -15:
-        jump final_malo_2
-
-    show screen darkening_overlay(0.2)
-
-    centered "Continuará."
-
-    return
-
-label final_malo_2:
-    # WIP
-
-    centered "FIN"
-    return
+            jump ch4_1_el_nacimiento_del_dios_de_la_pizza

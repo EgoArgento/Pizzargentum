@@ -22,12 +22,12 @@ label ch2_pizzeria_de_chietti:
     protagonista.c sin_delantal enojado "Loco, ¿nadie labura o qué?"
     protagonista.c sin_delantal incredulo "{=susurro}Me queda poco tiempo de descanso. Si espero mucho y vuelvo tarde me rajan.{/=susurro}"
 
-    show screen timed_choice(3.0, Jump("final_malo_1"))
+    show screen timed_choice(3.0, Jump("ch3_2_la_fortuna_no_favorece_a_quienes_esperan"))
 
     menu:
         "Quedarme y... ¿esperar?":
             hide screen timed_choice
-            jump final_malo_1
+            jump ch3_2_la_fortuna_no_favorece_a_quienes_esperan
         "Campeón que se respeta no espera":
             hide screen timed_choice
             jump ch2_pizzeria_de_chietti_cont
@@ -49,25 +49,4 @@ label ch2_pizzeria_de_chietti_cont:
     # TODO: agregar PÍCARO
     protagonista.c sin_delantal delirante "UHH ¡Durmió!"
 
-    jump ch3_argentino_que_se_respeta_no_espera_1
-
-label final_malo_1:
-    play ambient reloj_tictac
-
-    pause 3.0
-
-    stop ambient
-
-    protagonista.c sin_delantal enojado "No sé qué hago acá. No puedo perder el único trabajo que conseguí."
-
-    show protagonista sin_delantal enojado:
-        xzoom -1
-        easein 1.5 xalign -1.0
-    pause 1.0
-    show screen darkening_overlay(1.0)
-    play sound abrir_puerta
-
-    pause 2
-
-    centered "FIN"
-    return
+    jump ch3_1_argentino_que_se_respeta_no_espera

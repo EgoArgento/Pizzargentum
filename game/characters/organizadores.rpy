@@ -1,3 +1,5 @@
+init offset = -1
+
 define organizador1 = Character(
     name="Organizador",
     image="organizador1",
