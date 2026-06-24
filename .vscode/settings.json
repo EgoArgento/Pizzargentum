@@ -27,7 +27,10 @@
         }
       },
       {
-        "scope": ["renpy.meta.u", "renpy.meta.a"],
+        "scope": [
+          "renpy.meta.u",
+          "renpy.meta.a"
+        ],
         "settings": {
           "fontStyle": "underline"
         }
@@ -120,6 +123,12 @@
         "scope": "renpy.meta.color.#103f79",
         "settings": {
           "foreground": "#103f79"
+        }
+      },
+      {
+        "scope": "renpy.meta.color.#111",
+        "settings": {
+          "foreground": "#111"
         }
       }
     ]
