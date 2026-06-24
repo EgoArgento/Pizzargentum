@@ -14,11 +14,10 @@ label ch1_inscripcion:
     hide screen darkening_overlay
 
     play music bgm_ch1_2 loop
-    play ambient sfx_murmuring_crowd volume 0.75
+    play ambient sfx_murmuring_crowd volume 0.75 loop
 
     scene bg ch1 inscripcion
 
-    # TODO: mover de izq a dcha?
     show protagonista sonriente:
         xalign -0.5
         easein 1 xalign 0.0
@@ -29,34 +28,36 @@ label ch1_inscripcion:
     $ renpy.music.set_volume(volume=0.3, delay=3.0)
     stop sound fadeout 0.3
     pause 0.3
-    play ambient sfx_crickets volume 0.3
+    play ambient sfx_crickets volume 0.3 loop
 
     protagonista.c "..."
 
     pause 1.0
-    play ambient sfx_crickets volume 1
+    play ambient sfx_crickets volume 1 loop
 
     protagonista.c incredulo "........."
 
     pause 1.0
-    play ambient sfx_crickets volume 2
-    play sound sfx_protagonista_tsk volume 2
+    play ambient sfx_crickets volume 2 loop
+    play sound sfx_protagonista_tsk volume 3
 
     protagonista.c enojado "......... ¿Y?"
 
     stop sound
     $ renpy.music.set_volume(0.7, delay=1.0)
-    play ambient sfx_murmuring_crowd volume 0.25
+    play ambient sfx_murmuring_crowd volume 0.25 loop
 
     show organizador1 indiferente
-    play sound sfx_organizador1_hmm volume 1.5
+    play sound sfx_organizador1_hmm volume 5
     organizador1 "¿Se le ofrece algo muchacho?"
 
     protagonista.c sonriente "¡Y claro! Quiero que me anoten al concurso. ¡Acá y {shader=jitter:1.0,6.0|wave:u__amplitude=3.0:u__frequency=6.0}{b}A H O R A{/b}{/shader}!"
 
     show organizador2 desinteresada
+    play sound sfx_organizador2_sigh
     organizador2 "Disculpe{w=0.1}.{w=0.1}.{w=0.1}. Señor. Como {b}sabrá{/b}, la lista de concursantes fue cerrada hace dos meses."
 
+    play sound sfx_protagonista_huh
     protagonista.c sorprendido "¡Cualquiera! ¡No puede ser que yo no esté!"
 
     show organizador1 enojado:
@@ -100,6 +101,7 @@ label ch1_inscripcion:
     protagonista.c incredulo "{=susurro}La verdad que no entiendo cómo esta gente consiguió laburo.{/=susurro}"
 
     stop music
+    stop ambient
     play sound sfx_record_scratch
 
     show organizador2 behind organizador1
@@ -121,7 +123,7 @@ label ch1_inscripcion:
     window hide
 
     play music bgm_dalebo
-    play sound sfx_bullicio
+    play sound sfx_bullicio volume 0.75
 
     pause
 

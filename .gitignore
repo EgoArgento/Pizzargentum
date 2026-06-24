@@ -30,3 +30,5 @@
 *.ini
 *.twee
 *.lock
+_mcp
+_mcp_bridge.rpy

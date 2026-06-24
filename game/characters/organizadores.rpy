@@ -14,6 +14,7 @@ define organizador2 = Character(
     who_color="#00f",
 )
 define sfx_organizador2_ehem = "audio/sfx/woman-clears-throat-411743.ogg"
+define sfx_organizador2_sigh = "audio/sfx/woman-sigh-101931.ogg"
 
 define organizador1y2 = Character(
     name="Organizador y Organizadora",

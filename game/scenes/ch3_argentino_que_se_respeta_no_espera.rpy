@@ -23,9 +23,9 @@ label ch3_1_argentino_que_se_respeta_no_espera:
     # Empieza minijuego
     show protagonista sin_delantal sonriente
 
-    jump ch3_minijuego_pizza_1
+    jump ch3_1_minijuego_pizza_1
 
-label ch3_minijuego_pizza_1:
+label ch3_1_minijuego_pizza_1:
     show screen timed_choice(3.0, Jump("ch4_2_la_vieja_confiable_fallo"))
 
     menu:
@@ -38,9 +38,9 @@ label ch3_minijuego_pizza_1:
             protagonista.c sin_delantal sonriente "Creo que esto llevaba tomate, ¿no?"
 
             if len(protagonista.ch3_minijuego_seleccion) < 2:
-                jump ch3_minijuego_pizza_1
+                jump ch3_1_minijuego_pizza_1
             else:
-                jump ch3_minijuego_pizza_2
+                jump ch3_1_minijuego_pizza_2
 
         "Colocarle ananá" if "anana" not in protagonista.ch3_minijuego_seleccion:
             hide screen timed_choice
@@ -51,9 +51,9 @@ label ch3_minijuego_pizza_1:
             protagonista.c sin_delantal sonriente "¡APA! ¿¿Y esto??"
 
             if len(protagonista.ch3_minijuego_seleccion) < 2:
-                jump ch3_minijuego_pizza_1
+                jump ch3_1_minijuego_pizza_1
             else:
-                jump ch3_minijuego_pizza_2
+                jump ch3_1_minijuego_pizza_2
 
         "Colocarle anchoas" if "anchoas" not in protagonista.ch3_minijuego_seleccion:
             hide screen timed_choice
@@ -63,9 +63,9 @@ label ch3_minijuego_pizza_1:
             protagonista.c sin_delantal sonriente "Uuuuh, tiene pinta de caro... Mejor aprovecho."
 
             if len(protagonista.ch3_minijuego_seleccion) < 2:
-                jump ch3_minijuego_pizza_1
+                jump ch3_1_minijuego_pizza_1
             else:
-                jump ch3_minijuego_pizza_2
+                jump ch3_1_minijuego_pizza_2
 
         "Colocarle queso" if "queso" not in protagonista.ch3_minijuego_seleccion:
             hide screen timed_choice
@@ -74,11 +74,11 @@ label ch3_minijuego_pizza_1:
             protagonista.c sin_delantal sonriente "Esto más o menos tiene pinta de muzza."
 
             if len(protagonista.ch3_minijuego_seleccion) < 2:
-                jump ch3_minijuego_pizza_1
+                jump ch3_1_minijuego_pizza_1
             else:
-                jump ch3_minijuego_pizza_2
+                jump ch3_1_minijuego_pizza_2
 
-label ch3_minijuego_pizza_2:
+label ch3_1_minijuego_pizza_2:
     if "anana" in protagonista.ch3_minijuego_seleccion and "anchoas" in protagonista.ch3_minijuego_seleccion:
         protagonista.c sin_delantal delirante "¡A ESTO LE PONÉS SALSA CRIOLLA Y QUEDA JOYA!"
 

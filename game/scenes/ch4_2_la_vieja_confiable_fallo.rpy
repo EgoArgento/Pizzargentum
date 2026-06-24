@@ -1,5 +1,7 @@
-
 label ch4_2_la_vieja_confiable_fallo:
+    # TODO: hacer que si se llega por falta de tiempo
+    # cambien algunos diálogos.
+
     # TODO: agregar PREOCUPADO
     protagonista.c sin_delantal incredulo "Bueno, mal olor no tiene."
 

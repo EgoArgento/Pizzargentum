@@ -1,6 +1,7 @@
+define sfx_reloj_tictac = "audio/sfx/clock-tick-tik-tak-76043.ogg"
 
 label ch3_2_la_fortuna_no_favorece_a_quienes_esperan:
-    play ambient reloj_tictac
+    play ambient sfx_reloj_tictac loop
 
     pause 3.0
 

@@ -1,7 +1,7 @@
 ﻿# Cualquier configuración global que haya que realizar,
 # se debe ejecutar en esta sección
 init python:
-    renpy.music.register_channel("ambient", "sfx", loop=True)
+    renpy.music.register_channel("ambient", "sfx", loop=False)
 
 screen timed_choice(t, action):
     default remaining = t

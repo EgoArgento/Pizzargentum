@@ -1,6 +1,5 @@
 image bg ch2 pizzeria_interior_chieti = "images/backgrounds/ch2_pizzeria_interior_chieti.png"
-define abrir_puerta = "audio/sfx/door-open-close-with-bell-96884.ogg"
-define reloj_tictac = "audio/sfx/clock-tick-tik-tak-76043.ogg"
+define sfx_abrir_puerta = "audio/sfx/door-open-close-with-bell-96884.ogg"
 
 label ch2_pizzeria_de_chietti:
     centered "Alguna vez en Chietti.\n{i}Un pueblucho muy chiquito para mí.{/i}"
@@ -13,10 +12,14 @@ label ch2_pizzeria_de_chietti:
     protagonista.c "¡Laburo de @#$\%&!"
     window hide
 
-    play sound abrir_puerta
-    pause 2.0
+    play sound sfx_abrir_puerta
+    pause 1.0
+    play ambient sfx_pasos
+    pause 1.4
 
-    show protagonista sin_delantal sonriente
+    show protagonista sin_delantal sonriente:
+        xalign -0.5
+        easein 2.0 xalign 0.0
     protagonista.c "¿Holaaa?"
     protagonista.c "¿Hay alguien acá?"
     protagonista.c sin_delantal enojado "Loco, ¿nadie labura o qué?"
@@ -40,8 +43,10 @@ label ch2_pizzeria_de_chietti_cont:
 
     show protagonista sin_delantal sonriente:
         linear 1.5 xalign 1.0 zoom 0.6 yalign 0.3
+    play ambient sfx_pasos
 
     pause 2.0
+    stop ambient
 
     # TODO: agregar PREOCUPADO
     protagonista.c sin_delantal incredulo "¿Holaa?"
