@@ -3,10 +3,10 @@ label ch4_1_el_nacimiento_del_dios_de_la_pizza:
     if protagonista.ch3_karma == -15:
         jump ch4_2_la_vieja_confiable_fallo
 
-    # TODO: agregar ORGULLOSO
-    protagonista.c "Casi que me da pena comerla..."
-    # TODO: agregar PENSANTE
-    protagonista.c "*Crunch crunch*..."
+    # TODO: agregar sin_delantal ORGULLOSO
+    protagonista.c sin_delantal orgulloso "Casi que me da pena comerla..."
+    # TODO: agregar sin_delantal  PENSANTE
+    protagonista.c sin_delantal pensante "*Crunch crunch*..."
     protagonista.c sin_delantal delirante "NAAA, ¡SOY UN GROSOOOOO!"
 
     "WIP SFX Portazo fuerte"
@@ -40,7 +40,7 @@ label ch4_1_el_nacimiento_del_dios_de_la_pizza:
 
     "WIP SFX de tela arrancándose."
 
-    cocinero llora "¿PERO QUÉ HACE?"
+    cocinero sin_delantal llorando "¿PERO QUÉ HACE?"
 
     # TODO: sacudir jajaja
     protagonista.c sin_delantal delirante "¿Qué hago? ¿QUE QUÉ HAGO? {b}JAJAJAJA{/b}"
@@ -48,7 +48,7 @@ label ch4_1_el_nacimiento_del_dios_de_la_pizza:
     ## TODO: DELIRANTE fortíssimo, con delantal. Cómo?
     protagonista.c delirante "¡VOY A CONVERTIRME EN EL MEJOR CHEF DE PIZZA!"
 
-    protagonista.c  "¡EL CAPO DE LA PIZZA!"
+    protagonista.c "¡EL CAPO DE LA PIZZA!"
 
     "WIP Sonidos de recuerdo"
 

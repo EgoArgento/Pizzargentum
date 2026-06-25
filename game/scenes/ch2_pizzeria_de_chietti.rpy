@@ -38,7 +38,7 @@ label ch2_pizzeria_de_chietti:
 label ch2_pizzeria_de_chietti_cont:
     protagonista.c sin_delantal incredulo "Que me rajen, una depresión volver sin comer nada."
 
-    # FIXME: Pícaro
+    # TODO: Pícaro
     protagonista.c sin_delantal sonriente "¡A ver esa cocinaaa!"
 
     show protagonista sin_delantal sonriente:

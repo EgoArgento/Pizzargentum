@@ -25,7 +25,7 @@ label ch4_2_la_vieja_confiable_fallo:
     "WIP Sonido de pasos"
     "WIP Mover al personaje fuera de pantalla"
 
-    play sound abrir_puerta
+    play sound sfx_abrir_puerta
     pause 2.0
     hide protagonista
 

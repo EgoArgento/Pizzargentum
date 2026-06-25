@@ -14,7 +14,7 @@ label ch3_2_la_fortuna_no_favorece_a_quienes_esperan:
         easein 1.5 xalign -1.0
     pause 1.0
     show screen darkening_overlay(1.0)
-    play sound abrir_puerta
+    play sound sfx_abrir_puerta
 
     pause 2
 
