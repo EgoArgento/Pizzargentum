@@ -1,10 +1,12 @@
+# TODO: Corregir sprites en discusión con Cocinero
+# TODO: Corregir sprites en ch5
 label ch4_2_la_vieja_confiable_fallo:
     # TODO: hacer que si se llega por falta de tiempo
     # cambien algunos diálogos.
 
     protagonista.c sin_delantal preocupado "Bueno, mal olor no tiene."
 
-    "WIP SFX Portazo fuerte"
+    play sound sfx_portazo volume 2.0
 
     show cocinero enojado
 
