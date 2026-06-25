@@ -1,12 +1,17 @@
 
 image bg ch5 inscripcion = "images/backgrounds/ch5_inscripcion_tarde.png"
+define sfx_recuerdo_finish = "audio/sfx/remembrance-harp-72958-finish.ogg"
 
 label ch5_inscripcion_segunda_vuelta:
+    play sound sfx_recuerdo_finish
     centered "Área de recepción a concurso, Pescara, tarde."
 
     scene bg ch5 inscripcion
 
     hide screen darkening_overlay with dissolve
+
+    play music bgm_concorso loop
+    play ambient sfx_murmuring_crowd volume 0.75 loop
 
     # TODO: agregar ORGULLOSO
     show protagonista sonriente

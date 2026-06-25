@@ -1,3 +1,5 @@
+define sfx_portazo = "audio/sfx/door-closed-hardly-7041.ogg"
+define sfx_rasgar_tela = "audio/sfx/cloth_rippingwav-14481.ogg"
 
 label ch4_1_el_nacimiento_del_dios_de_la_pizza:
     if protagonista.ch3_karma == -15:
@@ -9,7 +11,9 @@ label ch4_1_el_nacimiento_del_dios_de_la_pizza:
     protagonista.c sin_delantal pensante "*Crunch crunch*..."
     protagonista.c sin_delantal delirante "NAAA, ¡SOY UN GROSOOOOO!"
 
-    "WIP SFX Portazo fuerte"
+    play sound sfx_portazo volume 2.0
+
+    # TODO: Música chistosa y frenética
     "WIP Música chistosa y frenética (khe)"
 
     show cocinero enojado
@@ -24,7 +28,8 @@ label ch4_1_el_nacimiento_del_dios_de_la_pizza:
 
     cocinero "PERO-{nw}"
 
-    # Suenan sonidos de sifones, las letras en pantalla se mueven fuera del cajón de diálogo.
+    # TODO: las letras en pantalla se mueven fuera del cajón de diálogo.
+    play sound sfx_shh
     protagonista.c "SHHHHHhhshHSH..."
 
     protagonista.c "Mirá... ¡TREMENDA!, ¿no?"
@@ -38,20 +43,72 @@ label ch4_1_el_nacimiento_del_dios_de_la_pizza:
 
     protagonista.c "¡Vení para acá y dame eso!"
 
-    "WIP SFX de tela arrancándose."
+    show protagonista sin_delantal delirante:
+        xalign 0.0
+        easein 0.5 xalign 0.85
 
-    cocinero sin_delantal llorando "¿PERO QUÉ HACE?"
+    pause 0.5
 
-    # TODO: sacudir jajaja
-    protagonista.c sin_delantal delirante "¿Qué hago? ¿QUE QUÉ HAGO? {b}JAJAJAJA{/b}"
+    show protagonista sin_delantal delirante:
+        xzoom 1
+        xalign 0.85
+        linear 0.2 xalign 1.0
+        pause 0.1
+        xzoom -1
+        linear 0.2 xalign 0.85
+        pause 0.1
+        repeat
+
+    show cocinero behind protagonista:
+        xzoom 1
+        xalign 1.0
+        linear 0.2 xalign 0.85 yalign 0.6
+        pause 0.1
+        xzoom -1
+        linear 0.2 xalign 1.0 yalign 1.0
+        pause 0.1
+        repeat
+
+    pause 0.5
+
+    show cocinero llorando:
+        xzoom 1
+        xalign 1.0
+        linear 0.2 xalign 0.85 yalign 0.6
+        pause 0.1
+        xzoom -1
+        linear 0.2 xalign 1.0 yalign 1.0
+        pause 0.1
+        repeat
+
+    pause 0.5
+
+    play sound sfx_rasgar_tela volume 2.0
+    pause 1.0
+
+    show protagonista delirante:
+        xzoom 1
+        xalign 0.85
+        easein 0.5 xalign 0
+
+    show cocinero sin_delantal llorando:
+        xzoom 1
+        easein 0.2 xalign 1.0 yalign 1.0
+
+    cocinero "¿PERO QUÉ HACE?"
+
+    protagonista.c sin_delantal delirante "¿Qué hago? ¿QUE QUÉ HAGO? {shader=jitter:1.0,6.0|wave:u__amplitude=3.0:u__frequency=6.0}{b}JAJAJAJA{/b}{/shader}"
 
     ## TODO: DELIRANTE fortíssimo, con delantal. Cómo?
     protagonista.c delirante "¡VOY A CONVERTIRME EN EL MEJOR CHEF DE PIZZA!"
 
     protagonista.c "¡EL CAPO DE LA PIZZA!"
 
-    "WIP Sonidos de recuerdo"
+    stop sound fadeout 1.0
+    stop ambient fadeout 1.0
+    stop music fadeout 1.0
+    show screen darkening_overlay(1.0)
 
-    show screen darkening_overlay(0.2)
+    pause 1.0
 
     jump ch5_inscripcion_segunda_vuelta

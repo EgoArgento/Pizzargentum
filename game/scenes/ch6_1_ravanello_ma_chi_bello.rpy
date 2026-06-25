@@ -6,7 +6,7 @@ label ch6_1_ravanello_ma_chi_bello:
 
     scene bg ch6 centro
 
-    play music bgm_ch1_2 loop
+    play music bgm_concorso loop
     play ambient sfx_murmuring_crowd volume 0.75 loop
     hide screen darkening_overlay with dissolve
 

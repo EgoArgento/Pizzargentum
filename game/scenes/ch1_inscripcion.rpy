@@ -1,6 +1,6 @@
 image bg ch1 inscripcion = "images/backgrounds/ch1_inscripcion.png"
 
-define bgm_ch1_2 = "audio/restaurante.mp3"
+define bgm_concorso = "audio/restaurante.mp3"
 define bgm_dalebo = "audio/dalebo.mp3"
 define sfx_crickets = "audio/sfx/felix_quinol-cricket-sound-113945.ogg"
 define sfx_bullicio = "audio/sfx/bullicio.ogg"
@@ -13,7 +13,7 @@ define sfx_record_scratch = "audio/sfx/record_scratch-108233.ogg"
 label ch1_inscripcion:
     hide screen darkening_overlay
 
-    play music bgm_ch1_2 loop
+    play music bgm_concorso loop
     play ambient sfx_murmuring_crowd volume 0.75 loop
 
     scene bg ch1 inscripcion
@@ -135,6 +135,7 @@ label ch1_inscripcion:
 
     organizador1 "En realidad señor-{nw}"
 
+    play sound sfx_shh
     protagonista.c enojado " {shader=jitter:u__jitter=5.0, 9.0|wave}SHHHHHhhshHSH.{/shader}"
 
     protagonista.c sonriente "Todo comenzó cuando..."

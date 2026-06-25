@@ -1,10 +1,13 @@
 image bg ch2 pizzeria_interior_chieti = "images/backgrounds/ch2_pizzeria_interior_chieti.png"
 define sfx_abrir_puerta = "audio/sfx/door-open-close-with-bell-96884.ogg"
+define sfx_recuerdo_start = "audio/sfx/remembrance-harp-72958-start.ogg"
 
 label ch2_pizzeria_de_chietti:
+    play sound sfx_recuerdo_start
+
     centered "Alguna vez en Chietti.\n{i}Un pueblucho muy chiquito para mí.{/i}"
 
-    play music bgm_ch1_2 loop
+    play music bgm_concorso loop
 
     scene bg ch2 pizzeria_interior_chieti
     hide screen darkening_overlay with dissolve
@@ -48,6 +51,6 @@ label ch2_pizzeria_de_chietti_cont:
     stop ambient
 
     protagonista.c sin_delantal preocupado "¿Holaa?"
-    protagonista.c sin_delantal picaro "EJEJE ¡Durmió!"
+    protagonista.c sin_delantal picaro "EJEJE, ¡durmió!"
 
     jump ch3_1_argentino_que_se_respeta_no_espera
