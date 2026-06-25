@@ -23,6 +23,7 @@ label ch2_pizzeria_de_chietti:
     show protagonista sin_delantal sonriente:
         xalign -0.5
         easein 2.0 xalign 0.0
+
     protagonista.c "¿Holaaa?"
     protagonista.c "¿Hay alguien acá?"
     protagonista.c sin_delantal enojado "Loco, ¿nadie labura o qué?"

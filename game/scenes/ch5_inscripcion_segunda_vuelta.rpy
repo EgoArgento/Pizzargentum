@@ -13,8 +13,7 @@ label ch5_inscripcion_segunda_vuelta:
     play music bgm_concorso loop
     play ambient sfx_murmuring_crowd volume 0.75 loop
 
-    # TODO: agregar ORGULLOSO
-    show protagonista sonriente
+    show protagonista orgulloso
     show organizador1 cansado
     show organizador2 cansada
 
@@ -22,7 +21,7 @@ label ch5_inscripcion_segunda_vuelta:
     protagonista.c "¡Y para mejor! Un sastrecito me bordó las palabras. ¡Zarpado, ¿no?!"
 
     # TODO: agregar CONFUNDIDA
-    organizador2 sorprendida "¿Y a qué te refieres con el más ca-{nw}"
+    organizador2 confundida "¿Y a qué te refieres con el más ca-{nw}"
 
     show organizador1 cansado:
         xzoom -1

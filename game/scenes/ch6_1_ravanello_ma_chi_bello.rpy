@@ -112,8 +112,7 @@ label ch6_1_ravanello_ma_chi_bello_2:
 
     "La cámara se acerca al PROTAGONISTA."
 
-    # TODO: VFX fortíssimo
-    protagonista.c "{b}¡¡¿Y SABÉS CÚAL ES MÁS GRANDE?!!{/b}"
+    protagonista.c delirante fortissimo "{b}¡¡¿Y SABÉS CÚAL ES MÁS GRANDE?!!{/b}"
 
     "La pantalla se sacude mientras el protagonista habla. La cámara se acerca a Ravanello. Un vidrio no diegético se rompe. La música se corta. El temporizador termina con un *RIIING*."
 

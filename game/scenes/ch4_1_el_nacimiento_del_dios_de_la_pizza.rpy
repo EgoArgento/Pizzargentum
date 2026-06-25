@@ -5,10 +5,8 @@ label ch4_1_el_nacimiento_del_dios_de_la_pizza:
     if protagonista.ch3_karma == -15:
         jump ch4_2_la_vieja_confiable_fallo
 
-    # TODO: agregar sin_delantal ORGULLOSO
     protagonista.c sin_delantal orgulloso "Casi que me da pena comerla..."
-    # TODO: agregar sin_delantal  PENSANTE
-    protagonista.c sin_delantal pensante "*Crunch crunch*..."
+    protagonista.c sin_delantal pensante con_pizza "*Crunch crunch*..."
     protagonista.c sin_delantal delirante "NAAA, ¡SOY UN GROSOOOOO!"
 
     play sound sfx_portazo volume 2.0
@@ -36,8 +34,7 @@ label ch4_1_el_nacimiento_del_dios_de_la_pizza:
 
     cocinero aterrado "¿¿Pero qué hizo??"
 
-    ## TODO: DELIRANTE fortíssimo. Cómo?
-    protagonista.c "¡Otra coronación de gloria!"
+    protagonista.c sin_delantal delirante fortissimo "¡Otra coronación de gloria!"
 
     cocinero enojado "¡LE PIDO QUE SE VAYA O VOY A TENER QUE LLAMAR A LA POLICÍA!"
 
@@ -97,10 +94,9 @@ label ch4_1_el_nacimiento_del_dios_de_la_pizza:
 
     cocinero "¿PERO QUÉ HACE?"
 
-    protagonista.c sin_delantal delirante "¿Qué hago? ¿QUE QUÉ HAGO? {shader=jitter:1.0,6.0|wave:u__amplitude=3.0:u__frequency=6.0}{b}JAJAJAJA{/b}{/shader}"
+    protagonista.c delirante "¿Qué hago? ¿QUE QUÉ HAGO? {shader=jitter:1.0,6.0|wave:u__amplitude=3.0:u__frequency=6.0}{b}JAJAJAJA{/b}{/shader}"
 
-    ## TODO: DELIRANTE fortíssimo, con delantal. Cómo?
-    protagonista.c delirante "¡VOY A CONVERTIRME EN EL MEJOR CHEF DE PIZZA!"
+    protagonista.c delirante fortissimo "¡VOY A CONVERTIRME EN EL MEJOR CHEF DE PIZZA!"
 
     protagonista.c "¡EL CAPO DE LA PIZZA!"
 
