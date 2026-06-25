@@ -2,6 +2,9 @@ init offset = -1
 
 init python:
     class MainCharacter:
+        name: str
+        c: Character
+
         def __init__(self):
             self.name = "Vos"
             self.c = Character(

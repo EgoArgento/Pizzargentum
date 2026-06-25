@@ -49,4 +49,4 @@ label ch5_inscripcion_segunda_vuelta:
 
     show screen darkening_overlay(1.0)
 
-    jump ch6_ravanello_ma_chi_bello
+    jump ch6_1_ravanello_ma_chi_bello

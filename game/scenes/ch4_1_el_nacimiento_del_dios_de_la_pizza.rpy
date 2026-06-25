@@ -6,7 +6,7 @@ label ch4_1_el_nacimiento_del_dios_de_la_pizza:
     # TODO: agregar ORGULLOSO
     protagonista.c "Casi que me da pena comerla..."
     # TODO: agregar PENSANTE
-    protagonista.c "*Crunch crunch*"
+    protagonista.c "*Crunch crunch*..."
     protagonista.c sin_delantal delirante "NAAA, ¡SOY UN GROSOOOOO!"
 
     "WIP SFX Portazo fuerte"
