@@ -38,8 +38,7 @@ label ch2_pizzeria_de_chietti:
 label ch2_pizzeria_de_chietti_cont:
     protagonista.c sin_delantal incredulo "Que me rajen, una depresión volver sin comer nada."
 
-    # TODO: Pícaro
-    protagonista.c sin_delantal sonriente "¡A ver esa cocinaaa!"
+    protagonista.c sin_delantal picaro "¡A ver esa cocinaaa!"
 
     show protagonista sin_delantal sonriente:
         linear 1.5 xalign 1.0 zoom 0.6 yalign 0.3
@@ -48,10 +47,9 @@ label ch2_pizzeria_de_chietti_cont:
     pause 2.0
     stop ambient
 
-    # TODO: agregar PREOCUPADO
-    protagonista.c sin_delantal incredulo "¿Holaa?"
+    # TODO: agregar sin_delantal PREOCUPADO
+    protagonista.c sin_delantal preocupado "¿Holaa?"
 
-    # TODO: agregar PÍCARO
-    protagonista.c sin_delantal delirante "UHH ¡Durmió!"
+    protagonista.c sin_delantal picaro "EJEJE ¡Durmió!"
 
     jump ch3_1_argentino_que_se_respeta_no_espera

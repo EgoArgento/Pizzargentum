@@ -48,7 +48,6 @@ label ch6_1_ravanello_ma_chi_bello:
 
     "WIP: agregar SFX de risas para prota, ¿y para ravanello?"
 
-    # TODO: agregar pícaro
     protagonista.c picaro "¡Daaalee, ponele primera!"
 
     "Suena bocina de conteo. Se muestra en pantalla '3, 2, 1' Y una última bocina acentúa el final."
