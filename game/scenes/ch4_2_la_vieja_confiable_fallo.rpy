@@ -2,8 +2,7 @@ label ch4_2_la_vieja_confiable_fallo:
     # TODO: hacer que si se llega por falta de tiempo
     # cambien algunos diálogos.
 
-    # TODO: agregar PREOCUPADO
-    protagonista.c sin_delantal incredulo "Bueno, mal olor no tiene."
+    protagonista.c sin_delantal preocupado "Bueno, mal olor no tiene."
 
     "WIP SFX Portazo fuerte"
 
@@ -11,7 +10,7 @@ label ch4_2_la_vieja_confiable_fallo:
 
     cocinero "¿Y usted quién es? ¡¿Qué hace acá?!"
 
-    # TODO: agregar NERVIOSO sin_delantal
+    # TODO: agregar sin_delantal NERVIOSO
     protagonista.c sin_delantal nervioso "Taniiito, ¡ya te tardabas mucho!"
 
     cocinero "¿Pero qué dice? ¡SALGA AHORA MISMO DE MI COCINA!"

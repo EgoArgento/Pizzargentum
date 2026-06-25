@@ -47,9 +47,7 @@ label ch2_pizzeria_de_chietti_cont:
     pause 2.0
     stop ambient
 
-    # TODO: agregar sin_delantal PREOCUPADO
     protagonista.c sin_delantal preocupado "¿Holaa?"
-
     protagonista.c sin_delantal picaro "EJEJE ¡Durmió!"
 
     jump ch3_1_argentino_que_se_respeta_no_espera

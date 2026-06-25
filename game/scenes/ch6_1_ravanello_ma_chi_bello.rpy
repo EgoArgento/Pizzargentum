@@ -75,17 +75,18 @@ label ch6_1_ravanello_ma_chi_bello:
     protagonista.c enojado "{=susurro}Este gil no me va a ganar.{/=susurro}"
 
     show screen timed_choice(
-        t=3.0,
-        action=Jump("ch4_2_la_vieja_confiable_fallo")
+        t=10.0,
+        action=Jump("ch6_2_siamo_fuori")
     )
 
     menu:
-        # TODO: agregar PREOCUPADO
         protagonista.c preocupado "{=susurro}¿Qué puedo hacer?{/=susurro}"
 
         "Nombrar Pizzas":
+            hide screen timed_choice
             jump ch6_2_siamo_fuori
         "Nombrar el plantel de Boquita del '77":
+            hide screen timed_choice
             jump ch6_1_ravanello_ma_chi_bello_2
 
 label ch6_1_ravanello_ma_chi_bello_2:
