@@ -23,8 +23,12 @@ label ch4_2_la_vieja_confiable_fallo:
 
     cocinero "¡SALGA AHORA!"
 
-    "WIP Sonido de pasos"
-    "WIP Mover al personaje fuera de pantalla"
+    play sound sfx_pasos_rapidos volume 2.0
+
+    show protagonista:
+        easein 1.5 xalign 1.5
+
+    pause 1.2
 
     play sound sfx_abrir_puerta
     pause 2.0

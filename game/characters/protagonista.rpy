@@ -40,6 +40,7 @@ transform character_setup:
 define sfx_protagonista_tsk = "audio/sfx/tsk-37433.ogg"
 define sfx_protagonista_huh = "audio/sfx/confused-huh-352694.ogg"
 define sfx_pasos = "audio/sfx/steps-40285.ogg"
+define sfx_pasos_rapidos = "audio/sfx/steps-40285-faster.ogg"
 define sfx_shh = "audio/sfx/shhhhhh-491234.ogg"
 #
 image protagonista ansioso = At("images/protagonista ansioso.png", character_setup)

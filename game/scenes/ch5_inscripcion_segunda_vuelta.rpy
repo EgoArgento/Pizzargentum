@@ -43,9 +43,9 @@ label ch5_inscripcion_segunda_vuelta:
 
     protagonista.c orgulloso "¡No se diga más! ¡Los voy a recordar cuando me haga famoso!"
 
-    "WIP Se escuchan ruidos de pasos y bullicio."
+    play sound sfx_pasos
 
-    # TODO: agregar CONFUNDIDO
+    # TODO: agregar organizador1 CONFUNDIDO
     organizador1 confundido "¡Señor! ¡Se olvida las-!{nw}"
 
     protagonista.c delirante "¡No me extrañen! ¡Les voy a dar un baile a estos y vuelvo!"
