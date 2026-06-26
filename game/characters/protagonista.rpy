@@ -4,6 +4,7 @@ init python:
     class MainCharacter:
         name: str
         c: Character
+        extra = ""
 
         def __init__(self):
             self.name = "Vos"
@@ -18,7 +19,13 @@ init python:
             self.ch3_karma = 0
 
         def get_name(self):
-            return self.name
+            return self.name + self.extra
+
+        def set_extra(self, extra):
+            self.extra = extra
+
+        def clean_extra(self):
+            self.extra = ""
 
         # Función para aplicar migración de datos.
         # Llegado el caso de que realicemos cambios

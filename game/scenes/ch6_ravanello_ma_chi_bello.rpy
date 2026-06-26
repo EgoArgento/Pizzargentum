@@ -2,6 +2,7 @@ image bg ch6 centro = "images/backgrounds/ch6_centro_convenciones_tarde.png"
 image vfx_time_counter = Movie(play="videos/time_counter.webm", mask="videos/time_counter_alpha.webm")
 
 define bgm_ch6_combat = "audio/fassounds-funny-comedy-playful-music-179002.mp3"
+define sfx_dramatic_impact = "audio/sfx/impact-transition-sfx-537386.ogg"
 
 label ch6_ravanello_ma_chi_bello:
     centered "Centro de convenciones, Pescara, tarde."
@@ -32,7 +33,7 @@ label ch6_ravanello_ma_chi_bello:
 
     protagonista.c "Y sí máquina..."
 
-    play sound sfx_laughin_coughin volume 2.0
+    play sound sfx_laughin_coughin volume 4.0
 
     protagonista.c ansioso "¡¿VOS vas a ser mi rival?!"
 
@@ -43,20 +44,22 @@ label ch6_ravanello_ma_chi_bello:
 
     ravanello "No importa, si quieres ganar el concurso, deberás ganarme a mí primero."
 
-    # TODO: fix
-    "WIP Agregar VFX de inicio de combate"
-
     play sound sfx_laughin_ravanello volume 2.0
     play ambient sfx_laughin volume 2.5
 
-    show protagonista confiado
     show ravanello confiado
+
+    $ protagonista.set_extra(' y Ravanello')
+
+    protagonista.c confiado "{=susurro}Esto ya está ganado.{/=susurro}"
+
+    $ protagonista.clean_extra()
 
     protagonista.c picaro "¡Daaalee, ponele primera!"
 
     show vfx_time_counter
 
-    pause 4.0
+    pause 4.3
 
     hide vfx_time_counter
 
@@ -64,18 +67,21 @@ label ch6_ravanello_ma_chi_bello:
 
     play sound sfx_laughin volume 0.75
 
-    protagonista.c "{=susurro}¡Papita pa'l loro!{/=susurro}"
+    protagonista.c confiado "{=susurro}¡Papita pa'l loro!{/=susurro}"
 
     ravanello confiado "¿Cuántos tipos de pizza conoces?"
 
-    # TODO: fix
-    "La cámara se acerca y aleja. Se ve un breve flash blanco. Se escucha un sonido dramático."
+    show screen whitening_overlay(0.2)
+    play sound sfx_dramatic_impact volume 3.0
+    pause 0.2
+    hide screen whitening_overlay
 
-    ravanello "¡Nómbralos todos!"
+    show protagonista confundido
+    ravanello desafiante "¡Nómbralos todos!"
 
-    protagonista.c confundido "{=susurro}¿Quuuuéeeeeeeeeeeeeeeee?{/=susurro}"
+    protagonista.c preocupado "{=susurro}¿Quuuuéeeeeeeeeeeeeeeee?{/=susurro}"
 
-    ravanello "¡Vamos cocinerito!"
+    ravanello delirante "¡Vamos cocinerito!"
 
     protagonista.c enojado "{=susurro}Este gil no me va a ganar.{/=susurro}"
 
