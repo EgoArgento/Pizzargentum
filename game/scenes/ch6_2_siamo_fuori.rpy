@@ -1,6 +1,5 @@
 label ch6_2_siamo_fuori:
-    # TODO: agregar NERVIOSO
-    protagonista.c nervioso "Yo... Yo se mucho de pizza."
+    protagonista.c ansioso "Yo... Yo se mucho de pizza."
 
     "El PROTAGONISTA ríe nervioso."
 
@@ -12,7 +11,6 @@ label ch6_2_siamo_fuori:
 
     "La cámara se acerca a Ravanello. Comienza a sonar un temporizador."
 
-    # TODO: ravanello entusiasmado
     ravanello entusiasmado "¡¿QUE NO?! ¡Pruébame que sabes de lo que hablas!"
 
     "El texto de Ravanello se ve de tamaño mayor al anterior. La cámara se acerca al PROTAGONISTA."
@@ -22,7 +20,6 @@ label ch6_2_siamo_fuori:
 
     "El texto del PROTAGONISTA decrece progresivamente en tamaño. La cámara se acerca a Ravanello."
 
-    # TODO: ravanello delirante
     ravanello delirante "{b}¡AJÁ! ¡NINGUNA DE ESAS SON PIZZAS!{/b}"
 
     "La pantalla se sacude mientras Ravanello habla. La cámara se acerca al PROTAGONISTA. Un vidrio no diegético se rompe. La música se corta. El temporizador termina con un *RIIING*."
@@ -32,7 +29,6 @@ label ch6_2_siamo_fuori:
 
     "Se escucha la respiración agitada del protagonista. Suena música chistosa del estilo de 'Jaunty Gumption'."
 
-    # TODO: ravanello entusiasmado
     ravanello entusiasmado "¿Eso que oigo es {shader=jitter:1.0,6.0|wave:u__amplitude=3.0:u__frequency=6.0}{b}RENDICIÓN{/b}{/shader}?"
 
     protagonista.c enojado "{b}¡NO!{/b} VOS NO SABES NADA."
@@ -41,7 +37,6 @@ label ch6_2_siamo_fuori:
 
     ravanello desafiante "¡Sepa perder, compañero!"
 
-    # TODO: agregar ravanello burlon
     ravanello burlon "Quizás, la proxima vez anótese a un concurso de su tallita~."
 
     protagonista.c "¡¡¡¡YA VAS A VER!!!!"

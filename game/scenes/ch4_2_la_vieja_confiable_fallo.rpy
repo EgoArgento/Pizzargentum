@@ -12,8 +12,8 @@ label ch4_2_la_vieja_confiable_fallo:
 
     cocinero "¿Y usted quién es? ¡¿Qué hace acá?!"
 
-    # TODO: agregar sin_delantal NERVIOSO
-    protagonista.c sin_delantal nervioso "Taniiito, ¡ya te tardabas mucho!"
+    # TODO: agregar sin_delantal ANSIOSO
+    protagonista.c sin_delantal ansioso "Taniiito, ¡ya te tardabas mucho!"
 
     cocinero "¿Pero qué dice? ¡SALGA AHORA MISMO DE MI COCINA!"
 

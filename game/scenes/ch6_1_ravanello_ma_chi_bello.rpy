@@ -16,8 +16,7 @@ label ch6_1_ravanello_ma_chi_bello:
 
     pause 2.0
 
-    # TODO: agregar IMPACIENTE
-    protagonista.c impaciente "Bueno, bueno ¡¿cuándo empieza esto?!"
+    protagonista.c ansioso "Bueno, bueno ¡¿cuándo empieza esto?!"
 
     pause 2.0
 
@@ -42,7 +41,6 @@ label ch6_1_ravanello_ma_chi_bello:
 
     "WIP Agregar VFX de inicio de combate"
 
-    # TODO: Agregar protagonista confiado
     show protagonista confiado
     show ravanello confiado
 
@@ -52,7 +50,6 @@ label ch6_1_ravanello_ma_chi_bello:
 
     "Suena bocina de conteo. Se muestra en pantalla '3, 2, 1' Y una última bocina acentúa el final."
 
-    # TODO: ravanello entusiasmado
     ravanello entusiasmado "Como retador, ¡deberás responder una pregunta!"
 
     "El protagonista ríe confiado por lo bajo."
@@ -90,7 +87,6 @@ label ch6_1_ravanello_ma_chi_bello:
             jump ch6_1_ravanello_ma_chi_bello_2
 
 label ch6_1_ravanello_ma_chi_bello_2:
-    # TODO: agregar confiado
     protagonista.c confiado "Primero que nada, no sabés a quién te estás enfrentando."
 
     ravanello confundido "{=susurro}¿¡Mah-?!{/=susurro}"
@@ -107,7 +103,6 @@ label ch6_1_ravanello_ma_chi_bello_2:
 
     "La cámara se acerca y aleja. El texto '¡¡LA GIANCARLO!!' se sacude en pantalla. Luego, la cámara se acerca a Ravanello."
 
-    # TODO: agregar ravanello asustado
     ravanello asustado "{=susurro}No puede ser, ¿tan poco se de pizza?{/=susurro}"
 
     "La cámara se acerca al PROTAGONISTA."

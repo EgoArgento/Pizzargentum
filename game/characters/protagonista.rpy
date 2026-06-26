@@ -44,6 +44,7 @@ define sfx_pasos_rapidos = "audio/sfx/steps-40285-faster.ogg"
 define sfx_shh = "audio/sfx/shhhhhh-491234.ogg"
 #
 image protagonista ansioso = At("images/protagonista ansioso.png", character_setup)
+image protagonista confiado = At("images/protagonista confiado.png", character_setup)
 image protagonista delirante fortissimo = At("images/protagonista delirante fortissimo.png", character_setup)
 image protagonista delirante = At("images/protagonista delirante.png", character_setup)
 image protagonista enojado = At("images/protagonista enojado.png", character_setup)

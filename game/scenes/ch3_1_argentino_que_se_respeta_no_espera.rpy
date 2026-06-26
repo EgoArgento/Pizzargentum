@@ -6,7 +6,6 @@ label ch3_1_argentino_que_se_respeta_no_espera:
     scene bg ch3 pizzeria_cocina_chieti
     hide screen darkening_overlay with dissolve
 
-    # TODO: agregar sin_delantal SORPRENDIDO
     show protagonista sin_delantal sorprendido
 
     protagonista.c "¿Y esto? ¿Se dejó media pizza?"
