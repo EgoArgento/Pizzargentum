@@ -34,7 +34,9 @@ label ch7_2_siamo_fuori:
     protagonista.c llorando "¡Pará loco! ¡Tené piedad!"
 
     # TODO: fix
-    "Se escucha la respiración agitada del protagonista. Suena música chistosa del estilo de 'Jaunty Gumption'."
+    "Se escucha la respiración agitada del protagonista."
+
+    play music bgm_ch4_7_merry_cherry loop
 
     ravanello entusiasmado "¿Eso que oigo es {shader=jitter:1.0,6.0|wave:u__amplitude=3.0:u__frequency=6.0}{b}RENDICIÓN{/b}{/shader}?"
 

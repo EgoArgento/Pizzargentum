@@ -351,7 +351,6 @@ style navigation_button_text:
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
 
 screen main_menu():
-
     ## This ensures that any other menu screen is replaced.
     tag menu
 
@@ -369,7 +368,6 @@ screen main_menu():
     use navigation
 
     if gui.show_name:
-
         vbox:
             style "main_menu_vbox"
 
@@ -379,6 +377,11 @@ screen main_menu():
             text "[config.version]":
                 style "main_menu_version"
 
+    on 'show':
+        if persistent.complete:
+            action Play("music", "audio/un_estate_italiana.ogg", loop=True, fadein=0.5)
+        else:
+            action Play("music", "audio/mainmenu.mp3", loop=True, fadein=0.5)
 
 style main_menu_frame is empty
 style main_menu_vbox is vbox

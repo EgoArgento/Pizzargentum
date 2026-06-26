@@ -3,7 +3,7 @@
 ## Lines beginning with two '#' marks are comments, and you shouldn't uncomment
 ## them. Lines beginning with a single '#' mark are commented-out code, and you
 ## may want to uncomment them when appropriate.
-
+default persistent.complete = False
 
 ## Basics ######################################################################
 
@@ -62,8 +62,7 @@ define config.has_voice = True
 ## the player is at the main menu. This file will continue playing into the
 ## game, until it is stopped or another file is played.
 
-define config.main_menu_music = "mainmenu.mp3"
-
+define config.main_menu_music = None
 
 ## Transitions #################################################################
 ##

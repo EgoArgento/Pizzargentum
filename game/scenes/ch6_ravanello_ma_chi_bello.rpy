@@ -1,6 +1,8 @@
 image bg ch6 centro = "images/backgrounds/ch6_centro_convenciones_tarde.png"
 image vfx_time_counter = Movie(play="videos/time_counter.webm", mask="videos/time_counter_alpha.webm")
 
+define bgm_ch6_combat = "audio/fassounds-funny-comedy-playful-music-179002.mp3"
+
 label ch6_ravanello_ma_chi_bello:
     centered "Centro de convenciones, Pescara, tarde."
 
@@ -36,8 +38,7 @@ label ch6_ravanello_ma_chi_bello:
 
     ravanello enojado "No entiendo. ¿Quién eres?, ¿¿cuál es tu problema??"
 
-    # TODO: fix
-    "WIP: agregar música de combate"
+    play music bgm_ch6_combat loop
     stop ambient
 
     ravanello "No importa, si quieres ganar el concurso, deberás ganarme a mí primero."
