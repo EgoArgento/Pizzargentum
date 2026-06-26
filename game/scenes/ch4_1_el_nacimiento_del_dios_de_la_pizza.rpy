@@ -3,6 +3,15 @@ define sfx_rasgar_tela = "audio/sfx/cloth_rippingwav-14481.ogg"
 
 define bgm_ch4_7_merry_cherry = "audio/anystyle-merry-cherry-175063.ogg"
 
+transform fade_in:
+    alpha 0.0
+    easein 0.5 alpha 1.0
+
+screen sifonazo_texto():
+    text "SHHHHHhhshHSH..." at wander
+    text "SHHHHHhhshHSH..." at wander
+    text "SHHHHHhhshHSH..." at wander
+
 label ch4_1_el_nacimiento_del_dios_de_la_pizza:
     if protagonista.ch3_karma == -15:
         jump ch4_2_la_vieja_confiable_fallo
@@ -28,9 +37,12 @@ label ch4_1_el_nacimiento_del_dios_de_la_pizza:
 
     cocinero "PERO-{nw}"
 
-    # TODO: las letras en pantalla se mueven fuera del cajón de diálogo.
-    play sound sfx_shh
+    play sound sfx_shh loop
+
+    show screen sifonazo_texto()
     protagonista.c sin_delantal ansioso "SHHHHHhhshHSH..."
+    hide screen sifonazo_texto
+    stop sound
 
     protagonista.c sin_delantal delirante "Mirá... ¡TREMENDA!, ¿no?"
 

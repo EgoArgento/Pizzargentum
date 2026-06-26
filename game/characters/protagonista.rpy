@@ -37,6 +37,22 @@ transform character_setup:
     left
     zoom 0.2
 
+init python:
+    import random
+
+    def random_move(trans, st, at):
+        pause_duration = 0.1
+        if hasattr(trans, 'next_move_time') is False:
+            trans.next_move_time = 0.0
+
+        if st >= trans.next_move_time:
+            trans.xpos = random.uniform(0.0, 1.0)
+            trans.ypos = random.uniform(0.0, 1.0)
+            trans.next_move_time = st + pause_duration
+        return 0
+
+transform wander:
+    function random_move
 #
 define sfx_protagonista_tsk = "audio/sfx/tsk-37433.ogg"
 define sfx_protagonista_huh = "audio/sfx/confused-huh-352694.ogg"
