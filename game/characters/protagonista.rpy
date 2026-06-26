@@ -46,6 +46,7 @@ define sfx_shh = "audio/sfx/shhhhhh-491234.ogg"
 define sfx_masticar = "audio/sfx/munchin-95618.ogg"
 define sfx_chefs_kiss = "audio/sfx/beetpro-kiss-19-11100.ogg"
 define sfx_laughin_coughin = "audio/sfx/cackling-laugh-85211.ogg"
+define sfx_laughin = "audio/sfx/cackling-laugh-85211-2.ogg"
 #
 image protagonista ansioso = At("images/protagonista ansioso.png", character_setup)
 image protagonista confiado = At("images/protagonista confiado.png", character_setup)

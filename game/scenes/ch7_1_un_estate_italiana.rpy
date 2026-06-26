@@ -34,7 +34,11 @@ label ch7_1_un_estate_italiana:
     ravanello llorando "¡Ya basta, me rindo!"
 
     # TODO: fix
-    "Se escucha el llanto de Ravanello. Retoma la música tranquila anterior."
+    "Se escucha el llanto de Ravanello."
+
+    stop music fadeout 0.3
+    pause 0.3
+    play music bgm_concorso loop fadein 0.3
 
     protagonista.c enojado "{=susurro}¡No me podés cortar a la mitad...! Ya sabía yo que éste era amargo.{/=susurro}"
 
@@ -46,20 +50,25 @@ label ch7_1_un_estate_italiana:
 
     ravanello llorando "¿Cree usted que lograré alcanzar a Ego algún día?"
 
+    play sound sfx_laughin volume 2.0
+
     protagonista.c "¡¿A Ego?! ¡JA!"
 
-    # TODO: fix
-    "El protagonista se ríe."
+    stop music fadeout 0.4
+    pause 0.4
+    play music bgm_dalebo loop fadein 0.4
 
-    protagonista.c delirante "¡A ese gallina nadie lo juna!"
-
+    protagonista.c delirante "¡A ese GALLINA nadie lo juna!"
     # TODO: fix
-    "El texto 'gallina' se sacude con los colores de River Plate. La música cambia a 'Dale, Dale Boca'."
+    "El texto 'gallina' se sacude con los colores de River Plate."
 
     ravanello "Pero-{nw}"
 
     protagonista.c "¡Pero nada!"
     protagonista.c "¡Dale! ¡Que pase el que sigue!"
+
+    stop music fadeout 0.4
+    pause 0.4
 
     play music bgm_un_estate_italiana loop fadein 0.5
 
@@ -68,6 +77,6 @@ label ch7_1_un_estate_italiana:
     show screen darkening_overlay(1.0)
     pause 1.0
 
-    centered "Continuará"
+    centered "Continuará..."
 
     return

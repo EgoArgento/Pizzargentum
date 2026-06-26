@@ -76,9 +76,6 @@ label ch6_ravanello_ma_chi_bello:
 
     protagonista.c confundido "{=susurro}¿Quuuuéeeeeeeeeeeeeeeee?{/=susurro}"
 
-    # TODO: fix
-    "Aparece en pantalla un contador de tiempo restante. La música cambia a Acid jazz, similar a 'Discussion -HEAT UP-'."
-
     ravanello "¡Vamos cocinerito!"
 
     protagonista.c enojado "{=susurro}Este gil no me va a ganar.{/=susurro}"
