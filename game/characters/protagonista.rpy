@@ -108,3 +108,8 @@ transform delantal_setup:
     yoffset -50
 
 image delantal primer plano = At("images/delantal primer plano.png", delantal_setup)
+
+transform sifon_setup:
+    zoom 0.07
+
+image protagonista sifon = At("images/sifon.png", sifon_setup)

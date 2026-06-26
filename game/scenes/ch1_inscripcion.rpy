@@ -133,7 +133,7 @@ label ch1_inscripcion:
     organizador1 "En realidad señor-{nw}"
 
     play sound sfx_shh
-    protagonista.c enojado " {shader=jitter:u__jitter=5.0, 9.0|wave}SHHHHHhhshHSH.{/shader}"
+    protagonista.c enojado "{shader=jitter:u__jitter=5.0, 9.0|wave}SHHHHHhhshHSH...{/shader}"
 
     protagonista.c sonriente "Todo comenzó cuando..."
 

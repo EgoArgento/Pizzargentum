@@ -1,3 +1,10 @@
+screen sifonazo_imagen():
+    add "protagonista sifon" at wander
+    add "protagonista sifon" at wander
+    add "protagonista sifon" at wander
+    add "protagonista sifon" at wander
+    add "protagonista sifon" at wander
+    add "protagonista sifon" at wander
 
 label ch7_1_un_estate_italiana:
     $ protagonista.migrar_data()
@@ -6,30 +13,31 @@ label ch7_1_un_estate_italiana:
 
     ravanello confundido "{=susurro}¿¡Mah-?!{/=susurro}"
 
-    # TODO: fix
-    "Se hace un pequeño acercamiento a la escena con un flash blanco."
+    protagonista.c sonriente "¡¿Mi pizza favorita?!"
 
-    protagonista.c "¡¿Mi pizza favorita? {shader=jitter:1.0,6.0|wave:u__amplitude=3.0:u__frequency=6.0}{b}¡¡La O.Gatti!!{/b}{/shader}"
+    show screen whitening_overlay(0.2)
+    play sound sfx_dramatic_impact volume 3.0
+    pause 0.2
+    hide screen whitening_overlay
 
-    ravanello "{=susurro}¿QUUUÉEeeeEeEe? ¡Esa no la conozco!{/=susurro}"
+    protagonista.c delirante "{shader=jitter:1.0,6.0|wave:u__amplitude=3.0:u__frequency=6.0}{b}¡¡La O.Gatti!!{/b}{/shader}"
 
-    # TODO: fix
-    "La cámara se acerca más. Comienza a sonar un temporizador."
+    ravanello asustado "{=susurro}¿QUUUÉEeeeEeEe? ¡Esa no la conozco!{/=susurro}"
 
-    protagonista.c delirante "¡¿Y sabés cual es más grossa todavía?! {shader=jitter:1.0,6.0|wave:u__amplitude=3.0:u__frequency=6.0}{b}¡¡LA GIANCARLO!!{/b}{/shader}"
+    protagonista.c delirante "¡¿Y sabés cual es más grossa todavía?!"
 
-    # TODO: fix
-    "La cámara se acerca y aleja. El texto '¡¡LA GIANCARLO!!' se sacude en pantalla. Luego, la cámara se acerca a Ravanello."
+    protagonista.c "{shader=jitter:1.0,6.0|wave:u__amplitude=3.0:u__frequency=6.0}{b}¡¡LA GIANCARLO!!{/b}{/shader}"
 
-    ravanello asustado "{=susurro}No puede ser, ¿tan poco se de pizza?{/=susurro}"
-
-    # TODO: fix
-    "La cámara se acerca al PROTAGONISTA."
+    ravanello confundido "{=susurro}No puede ser, ¿tan poco se de pizza?{/=susurro}"
 
     protagonista.c delirante fortissimo "{b}¡¡¿Y SABÉS CÚAL ES MÁS GRANDE?!!{/b}"
 
-    # TODO: fix
-    "La pantalla se sacude mientras el protagonista habla. La cámara se acerca a Ravanello. Un vidrio no diegético se rompe. La música se corta. El temporizador termina con un *RIIING*."
+    stop music
+
+    show screen whitening_overlay(0.2)
+    play sound sfx_dramatic_impact volume 3.0
+    pause 0.3
+    hide screen whitening_overlay
 
     play sound sfx_llorando loop
 
@@ -40,6 +48,8 @@ label ch7_1_un_estate_italiana:
     play music bgm_concorso loop fadein 0.3
 
     protagonista.c enojado "{=susurro}¡No me podés cortar a la mitad...! Ya sabía yo que éste era amargo.{/=susurro}"
+
+    stop sound
 
     ravanello asustado "No sabía que mi ignorancia llegaba a tanto, me disculpo señor."
 
@@ -57,13 +67,22 @@ label ch7_1_un_estate_italiana:
     pause 0.4
     play music bgm_dalebo loop fadein 0.4
 
-    protagonista.c delirante "¡A ese GALLINA nadie lo juna!"
-    # TODO: fix
-    "El texto 'gallina' se sacude con los colores de River Plate."
+    protagonista.c delirante "¡A ese {shader=jitter:5.0,9.0}{color=#fff}GA{/color}{color=#f00}LLI{/color}{color=#fff}NA{/color}{/shader} nadie lo juna!"
 
     ravanello "Pero-{nw}"
 
-    protagonista.c "¡Pero nada!"
+    play sound sfx_shh loop
+
+    show screen sifonazo_imagen()
+    protagonista.c "{shader=jitter:u__jitter=5.0, 9.0|wave}SHHHHHhhshHSH.{/shader}"
+    hide screen sifonazo_imagen
+    stop sound
+
+    play sound sfx_pasos_rapidos volume 2.0
+    show ravanello:
+        xzoom -1
+        easein 1.5 xalign 2.0
+
     protagonista.c "¡Dale! ¡Que pase el que sigue!"
 
     stop music fadeout 0.4

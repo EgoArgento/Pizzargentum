@@ -40,7 +40,7 @@ label ch4_1_el_nacimiento_del_dios_de_la_pizza:
     play sound sfx_shh loop
 
     show screen sifonazo_texto()
-    protagonista.c sin_delantal ansioso "SHHHHHhhshHSH..."
+    protagonista.c sin_delantal ansioso "{shader=jitter:u__jitter=5.0, 9.0|wave}SHHHHHhhshHSH...{/shader}"
     hide screen sifonazo_texto
     stop sound
 
