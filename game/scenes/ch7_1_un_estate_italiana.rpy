@@ -31,10 +31,9 @@ label ch7_1_un_estate_italiana:
     # TODO: fix
     "La pantalla se sacude mientras el protagonista habla. La cámara se acerca a Ravanello. Un vidrio no diegético se rompe. La música se corta. El temporizador termina con un *RIIING*."
 
-    ravanello llorando "¡Ya basta, me rindo!"
+    play sound sfx_llorando loop
 
-    # TODO: fix
-    "Se escucha el llanto de Ravanello."
+    ravanello llorando "¡Ya basta, me rindo!"
 
     stop music fadeout 0.3
     pause 0.3

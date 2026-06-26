@@ -3,10 +3,11 @@ image bg ch7 salida = "images/backgrounds/ch7_salida_concurso_noche.png"
 define bgm_ch7_titanic_flauta = "audio/titanic_flauta.ogg"
 
 label ch7_2_siamo_fuori:
-    protagonista.c ansioso "Yo... Yo se mucho de pizza."
+    protagonista.c ansioso "Yo.{w=0.1}.{w=0.1}.{w=0.1} {nw}"
 
-    # TODO: fix
-    "El PROTAGONISTA ríe nervioso."
+    play sound sfx_gulp volume 2.0
+
+    extend "{w=0.2}Yo se mucho de pizza."
 
     ravanello burlon "Shaa veo. Por eso no responde, {b}¡¿NO?!{/b}"
 
@@ -33,19 +34,19 @@ label ch7_2_siamo_fuori:
     # TODO: fix
     "La pantalla se sacude mientras Ravanello habla. La cámara se acerca al PROTAGONISTA. Un vidrio no diegético se rompe. La música se corta. El temporizador termina con un *RIIING*."
 
-    protagonista.c llorando "¡Pará loco! ¡Tené piedad!"
+    play sound sfx_llorando loop
 
-    # TODO: fix
-    "Se escucha la respiración agitada del protagonista."
+    protagonista.c llorando "¡Pará loco! ¡Tené piedad!"
 
     play music bgm_ch4_7_merry_cherry loop
 
     ravanello entusiasmado "¿Eso que oigo es {shader=jitter:1.0,6.0|wave:u__amplitude=3.0:u__frequency=6.0}{b}RENDICIÓN{/b}{/shader}?"
 
+    stop sound
+
     protagonista.c enojado "{b}¡NO!{/b} VOS NO SABES NADA."
 
-    # TODO: fix
-    "Se escucha la risa de Ravanello."
+    play sound sfx_laughin_ravanello volume 3.0
 
     ravanello entusiasmado "¡Sepa perder, compañero!"
 
@@ -76,13 +77,9 @@ label ch7_2_siamo_fuori_2:
 
     hide screen whitening_overlay with dissolve
 
-    # TODO: fix
-    "No se percibe el entorno ni al protagonista, tampoco hay sonidos ambientales."
+    protagonista.c "No puedo creer que me rajaron por eso..."
 
-    protagonista.c enojado "No puedo creer que me rajaron por eso..."
-
-    # TODO: fix
-    "Se escucha un quejido del protagonista."
+    play sound sfx_suspiro_quejoso
 
     protagonista.c "Acá todos iguales loco, no se bancan una..."
 

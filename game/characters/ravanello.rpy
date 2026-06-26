@@ -7,6 +7,8 @@ define ravanello = Character(
     who_outlines=[(2, "#f99", 0, 0)],
 )
 
+define sfx_laughin_ravanello = "audio/sfx/deep-laugh-chucklemp3-14518.ogg"
+
 transform ravanello_setup:
     right
     zoom 0.2

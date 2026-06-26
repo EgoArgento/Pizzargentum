@@ -29,7 +29,7 @@ label ch2_pizzeria_de_chietti:
     protagonista.c sin_delantal enojado "Loco, ¿nadie labura o qué?"
     protagonista.c sin_delantal incredulo "{=susurro}Me queda poco tiempo de descanso. Si espero mucho y vuelvo tarde me rajan.{/=susurro}"
 
-    show screen timed_choice(3.0, Jump("ch3_2_la_fortuna_no_favorece_a_quienes_esperan"))
+    show screen timed_choice(10.0, Jump("ch3_2_la_fortuna_no_favorece_a_quienes_esperan"))
 
     menu:
         "Quedarme y... ¿esperar?":

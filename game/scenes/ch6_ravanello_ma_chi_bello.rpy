@@ -46,11 +46,11 @@ label ch6_ravanello_ma_chi_bello:
     # TODO: fix
     "WIP Agregar VFX de inicio de combate"
 
+    play sound sfx_laughin_ravanello volume 2.0
+    play ambient sfx_laughin volume 2.5
+
     show protagonista confiado
     show ravanello confiado
-
-    # TODO: fix
-    "WIP: agregar SFX de risas para prota, ¿y para ravanello?"
 
     protagonista.c picaro "¡Daaalee, ponele primera!"
 
@@ -62,8 +62,7 @@ label ch6_ravanello_ma_chi_bello:
 
     ravanello entusiasmado "Como retador, ¡deberás responder una pregunta!"
 
-    # TODO: fix
-    "El protagonista ríe confiado por lo bajo."
+    play sound sfx_laughin volume 0.75
 
     protagonista.c "{=susurro}¡Papita pa'l loro!{/=susurro}"
 

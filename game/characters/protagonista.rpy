@@ -54,6 +54,7 @@ init python:
 transform wander:
     function random_move
 #
+define sfx_llorando = "audio/sfx/crying-6013.ogg"
 define sfx_protagonista_tsk = "audio/sfx/tsk-37433.ogg"
 define sfx_protagonista_huh = "audio/sfx/confused-huh-352694.ogg"
 define sfx_pasos = "audio/sfx/steps-40285.ogg"
@@ -61,8 +62,10 @@ define sfx_pasos_rapidos = "audio/sfx/steps-40285-faster.ogg"
 define sfx_shh = "audio/sfx/shhhhhh-491234.ogg"
 define sfx_masticar = "audio/sfx/munchin-95618.ogg"
 define sfx_chefs_kiss = "audio/sfx/beetpro-kiss-19-11100.ogg"
+define sfx_gulp = "audio/sfx/nervous-male-gulp-90151.ogg"
 define sfx_laughin_coughin = "audio/sfx/cackling-laugh-85211.ogg"
 define sfx_laughin = "audio/sfx/cackling-laugh-85211-2.ogg"
+define sfx_suspiro_quejoso = "audio/sfx/sigh-groan-92290.ogg"
 #
 image protagonista ansioso = At("images/protagonista ansioso.png", character_setup)
 image protagonista confiado = At("images/protagonista confiado.png", character_setup)
