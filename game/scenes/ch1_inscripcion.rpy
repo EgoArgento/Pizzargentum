@@ -7,7 +7,6 @@ define sfx_bullicio = "audio/sfx/bullicio.ogg"
 define sfx_murmuring_crowd = "audio/sfx/happy-crowd-at-interval-23485.ogg"
 define sfx_record_scratch = "audio/sfx/record_scratch-108233.ogg"
 
-# TODO: Configurar para que texto baja dentro de caja
 # TODO: Configurar colores de org1 org2 characters.
 
 label ch1_inscripcion:

@@ -49,10 +49,12 @@ define sfx_laughin_coughin = "audio/sfx/cackling-laugh-85211.ogg"
 #
 image protagonista ansioso = At("images/protagonista ansioso.png", character_setup)
 image protagonista confiado = At("images/protagonista confiado.png", character_setup)
+image protagonista confundido = At("images/protagonista confundido.png", character_setup)
 image protagonista delirante fortissimo = At("images/protagonista delirante fortissimo.png", character_setup)
 image protagonista delirante = At("images/protagonista delirante.png", character_setup)
 image protagonista enojado = At("images/protagonista enojado.png", character_setup)
 image protagonista incredulo = At("images/protagonista incredulo.png", character_setup)
+image protagonista llorando = At("images/protagonista llorando.png", character_setup)
 image protagonista orgulloso = At("images/protagonista orgulloso.png", character_setup)
 image protagonista pensante con_pizza = At("images/protagonista pensante con_pizza.png", character_setup)
 image protagonista pensante = At("images/protagonista pensante.png", character_setup)
@@ -61,6 +63,7 @@ image protagonista preocupado = At("images/protagonista preocupado.png", charact
 image protagonista sonriente = At("images/protagonista sonriente.png", character_setup)
 image protagonista sorprendido = At("images/protagonista sorprendido.png", character_setup)
 
+image protagonista sin_delantal ansioso = At("images/protagonista sin_delantal ansioso.png", character_setup)
 image protagonista sin_delantal delirante fortissimo = At("images/protagonista sin_delantal delirante fortissimo.png", character_setup)
 image protagonista sin_delantal delirante = At("images/protagonista sin_delantal delirante.png", character_setup)
 image protagonista sin_delantal enojado = At("images/protagonista sin_delantal enojado.png", character_setup)

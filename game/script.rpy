@@ -30,6 +30,5 @@ screen timed_choice(t, action):
         else:
             left_bar "#f33"
 
-
 label start:
     jump ch1_inscripcion

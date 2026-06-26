@@ -48,5 +48,5 @@ image organizador2 sorprendida = At("images/organizador2 sorprendida.png", organ
 
 style susurro is text:
     italic True
-    size 24
-    color "#333"
+    size gui.text_size - 5
+    color "#444D"
