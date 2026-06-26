@@ -24,7 +24,7 @@ label ch3_1_argentino_que_se_respeta_no_espera:
     jump ch3_1_minijuego_pizza_1
 
 label ch3_1_minijuego_pizza_1:
-    show screen timed_choice(3.0, Jump("ch4_2_la_vieja_confiable_fallo"))
+    show screen timed_choice(15.0, Jump("ch4_2_la_vieja_confiable_fallo"))
 
     menu:
         protagonista.c sin_delantal sonriente "¿Qué puedo hacer con esta pizza?"
@@ -80,7 +80,7 @@ label ch3_1_minijuego_pizza_2:
     if "anana" in protagonista.ch3_minijuego_seleccion and "anchoas" in protagonista.ch3_minijuego_seleccion:
         protagonista.c sin_delantal delirante "¡A ESTO LE PONÉS SALSA CRIOLLA Y QUEDA JOYA!"
 
-    show screen timed_choice(3.0, Jump("ch4_2_la_vieja_confiable_fallo"))
+    show screen timed_choice(15.0, Jump("ch4_2_la_vieja_confiable_fallo"))
 
     menu:
         protagonista.c sin_delantal sonriente "¿Cómo termino la pizza?"
@@ -95,7 +95,7 @@ label ch3_1_minijuego_pizza_2:
         "Darle un besito para la buena suerte":
             hide screen timed_choice
             $ protagonista.ch3_karma += 5
-            # TODO: agregar SFX de muak
+            play sound sfx_chefs_kiss
             protagonista.c sin_delantal sonriente "*muak* ¡Grosa como {b}papáaa{/b}!"
 
             jump ch4_1_el_nacimiento_del_dios_de_la_pizza

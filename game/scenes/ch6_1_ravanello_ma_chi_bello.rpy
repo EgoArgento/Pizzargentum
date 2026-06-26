@@ -1,5 +1,5 @@
 image bg ch6 centro = "images/backgrounds/ch6_centro_convenciones_tarde.png"
-
+image vfx_time_counter = Movie(play="videos/time_counter.webm", mask="videos/time_counter_alpha.webm")
 
 label ch6_1_ravanello_ma_chi_bello:
     centered "Centro de convenciones, Pescara, tarde."
@@ -28,9 +28,11 @@ label ch6_1_ravanello_ma_chi_bello:
 
     ravanello confundido "¿Me hablas a mí?"
 
-    protagonista.c "Y sí máquina. ¡¿VOS vas a ser mi rival?!"
+    protagonista.c "Y sí máquina..."
 
-    "WIP: SFX de risa atragantada."
+    play sound sfx_laughin_coughin volume 2.0
+
+    protagonista.c ansioso "¡¿VOS vas a ser mi rival?!"
 
     ravanello enojado "No entiendo. ¿Quién eres?, ¿¿cuál es tu problema??"
 
@@ -48,7 +50,11 @@ label ch6_1_ravanello_ma_chi_bello:
 
     protagonista.c picaro "¡Daaalee, ponele primera!"
 
-    "Suena bocina de conteo. Se muestra en pantalla '3, 2, 1' Y una última bocina acentúa el final."
+    show vfx_time_counter
+
+    pause 4.0
+
+    hide vfx_time_counter
 
     ravanello entusiasmado "Como retador, ¡deberás responder una pregunta!"
 

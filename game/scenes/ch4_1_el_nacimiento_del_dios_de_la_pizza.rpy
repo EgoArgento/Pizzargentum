@@ -6,7 +6,8 @@ label ch4_1_el_nacimiento_del_dios_de_la_pizza:
         jump ch4_2_la_vieja_confiable_fallo
 
     protagonista.c sin_delantal orgulloso "Casi que me da pena comerla..."
-    protagonista.c sin_delantal pensante con_pizza "*Crunch crunch*..."
+    play sound sfx_masticar
+    protagonista.c sin_delantal pensante con_pizza "*Crunch crunch* *ñom ñom*..."
     protagonista.c sin_delantal delirante "NAAA, ¡SOY UN GROSOOOOO!"
 
     play sound sfx_portazo volume 2.0
