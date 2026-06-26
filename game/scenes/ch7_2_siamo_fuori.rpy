@@ -1,5 +1,7 @@
 image bg ch7 salida = "images/backgrounds/ch7_salida_concurso_noche.png"
 
+define bgm_ch7_titanic_flauta = "audio/titanic_flauta.ogg"
+
 label ch7_2_siamo_fuori:
     protagonista.c ansioso "Yo... Yo se mucho de pizza."
 
@@ -69,6 +71,8 @@ label ch7_2_siamo_fuori:
 
 label ch7_2_siamo_fuori_2:
     scene bg ch7 salida
+
+    play music bgm_ch7_titanic_flauta fadein 0.4
 
     hide screen whitening_overlay with dissolve
 
