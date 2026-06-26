@@ -25,7 +25,7 @@ define config.check_conflicting_properties = True
 ## The colors of text in the interface.
 
 ## An accent color used throughout the interface to label and highlight text.
-define gui.accent_color = '#0099cc'
+define gui.accent_color = '#b79bd1'
 
 ## The color used for a text button when it is neither selected nor hovered.
 define gui.idle_color = '#888888'
@@ -58,13 +58,13 @@ define gui.interface_text_color = '#ffffff'
 
 
 ## The font used for in-game text.
-define gui.text_font = "DejaVuSans.ttf"
+define gui.text_font = "LilitaOne-Regular.ttf"
 
 ## The font used for character names.
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "LilitaOne-Regular.ttf"
 
 ## The font used for out-of-game text.
-define gui.interface_text_font = "DejaVuSans.ttf"
+define gui.interface_text_font = "LilitaOne-Regular.ttf"
 
 ## The size of normal dialogue text.
 define gui.text_size = 33
@@ -73,7 +73,7 @@ define gui.text_size = 33
 define gui.name_text_size = 45
 
 ## The size of text in the game's user interface.
-define gui.interface_text_size = 33
+define gui.interface_text_size = 55
 
 ## The size of labels in the game's user interface.
 define gui.label_text_size = 36
@@ -165,8 +165,8 @@ define gui.button_text_font = gui.interface_text_font
 define gui.button_text_size = gui.interface_text_size
 
 ## The color of button text in various states.
-define gui.button_text_idle_color = gui.idle_color
-define gui.button_text_hover_color = gui.hover_color
+define gui.button_text_idle_color ='#b79bd1'
+define gui.button_text_hover_color = '#f7e5b6'
 define gui.button_text_selected_color = gui.selected_color
 define gui.button_text_insensitive_color = gui.insensitive_color
 
@@ -261,7 +261,7 @@ define gui.notify_ypos = 68
 define gui.choice_spacing = 33
 
 ## Buttons in the navigation section of the main and game menus.
-define gui.navigation_spacing = 6
+define gui.navigation_spacing = 12
 
 ## Controls the amount of spacing between preferences.
 define gui.pref_spacing = 15

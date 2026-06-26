@@ -292,8 +292,11 @@ screen navigation():
     vbox:
         style_prefix "navigation"
 
-        xpos gui.navigation_xpos
-        yalign 0.5
+        if renpy.get_screen("main_menu"):
+            xalign 0.5
+        else:
+            xoffset 60
+        yalign 0.35
 
         spacing gui.navigation_spacing
 
@@ -342,6 +345,10 @@ style navigation_button:
 
 style navigation_button_text:
     properties gui.text_properties("navigation_button")
+    outlines [(3.9, "#000000", 1, 4)]
+    xalign 0.5
+
+
 
 
 ## Main Menu screen ############################################################
@@ -848,6 +855,7 @@ style pref_label:
     bottom_margin 3
 
 style pref_label_text:
+    color '#b79bd1'
     yalign 1.0
 
 style pref_vbox:

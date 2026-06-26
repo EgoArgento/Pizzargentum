@@ -1,5 +1,24 @@
 ﻿# Cualquier configuración global que haya que realizar,
 # se debe ejecutar en esta sección
+
+label splashscreen:
+
+    scene black
+    with Pause(1)
+
+    show text "{size=40}{color=#ffffff}El equipo EGO presenta...{/color}{/size}" at truecenter
+    with dissolve
+
+    pause 2
+
+    hide text with dissolve
+    with dissolve
+
+
+    return
+
+
+
 init python:
     renpy.music.register_channel("ambient", "sfx", loop=False)
 

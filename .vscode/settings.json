@@ -130,6 +130,42 @@
         "settings": {
           "foreground": "#111"
         }
+      },
+      {
+        "scope": "renpy.meta.color.#ffd54f",
+        "settings": {
+          "foreground": "#ffd54f"
+        }
+      },
+      {
+        "scope": "renpy.meta.color.#b04fff",
+        "settings": {
+          "foreground": "#b04fff"
+        }
+      },
+      {
+        "scope": "renpy.meta.color.#7f5ba3",
+        "settings": {
+          "foreground": "#7f5ba3"
+        }
+      },
+      {
+        "scope": "renpy.meta.color.#ffffff",
+        "settings": {
+          "foreground": "#ffffff"
+        }
+      },
+      {
+        "scope": "renpy.meta.color.#cfc",
+        "settings": {
+          "foreground": "#cfc"
+        }
+      },
+      {
+        "scope": "renpy.meta.color.#fff",
+        "settings": {
+          "foreground": "#fff"
+        }
       }
     ]
   },
