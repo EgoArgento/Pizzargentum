@@ -44,7 +44,7 @@ label ch7_2_siamo_fuori:
 
     stop sound
 
-    protagonista.c enojado "{b}¡NO!{/b} VOS NO SABES NADA."
+    protagonista.c enojado "{b}¡NO!{/b} VOS NO SABÉS NADA."
 
     play sound sfx_laughin_ravanello volume 3.0
 
@@ -77,11 +77,11 @@ label ch7_2_siamo_fuori_2:
 
     hide screen whitening_overlay with dissolve
 
-    protagonista.c "No puedo creer que me rajaron por eso..."
+    protagonista.c "No puedo creer que me rajaran por eso..."
 
     play sound sfx_suspiro_quejoso
 
-    protagonista.c "Acá todos iguales loco, no se bancan una..."
+    protagonista.c "Acá todos pecho fríos loco, no se bancan una..."
 
     pause
 
