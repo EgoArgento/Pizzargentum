@@ -63,7 +63,7 @@ label ch7_1_un_estate_italiana:
 
     play music bgm_un_estate_italiana loop fadein 0.5
 
-    $ completed_game = True
+    $ persistent.complete = True
 
     show screen darkening_overlay(1.0)
     pause 1.0

@@ -1,6 +1,8 @@
 define sfx_portazo = "audio/sfx/door-closed-hardly-7041.ogg"
 define sfx_rasgar_tela = "audio/sfx/cloth_rippingwav-14481.ogg"
 
+define bgm_ch4_7_merry_cherry = "audio/anystyle-merry-cherry-175063.ogg"
+
 label ch4_1_el_nacimiento_del_dios_de_la_pizza:
     if protagonista.ch3_karma == -15:
         jump ch4_2_la_vieja_confiable_fallo
@@ -12,8 +14,7 @@ label ch4_1_el_nacimiento_del_dios_de_la_pizza:
 
     play sound sfx_portazo volume 2.0
 
-    # TODO: Música chistosa y frenética
-    "WIP Música chistosa y frenética (khe)"
+    play music bgm_ch4_7_merry_cherry loop
 
     show cocinero enojado
 
