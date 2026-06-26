@@ -45,7 +45,7 @@ label ch7_2_siamo_fuori:
     # TODO: fix
     "Se escucha la risa de Ravanello."
 
-    ravanello desafiante "¡Sepa perder, compañero!"
+    ravanello entusiasmado "¡Sepa perder, compañero!"
 
     ravanello burlon "Quizás, la proxima vez anótese a un concurso de su tallita~."
 
@@ -60,6 +60,8 @@ label ch7_2_siamo_fuori:
     "El texto se sacude en pantalla, se lee mucho más grande. Se escucha un sonido fuerte."
 
     show screen whitening_overlay(0.2)
+
+    stop music fadeout 0.6
 
     pause 0.6
 
