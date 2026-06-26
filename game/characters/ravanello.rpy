@@ -3,7 +3,8 @@ init offset = -1
 define ravanello = Character(
     name="Ravanello",
     image="ravanello",
-    who_color="#f05",
+    who_color="#400D0D",
+    who_outlines=[(2, "#f99", 0, 0)],
 )
 
 transform ravanello_setup:

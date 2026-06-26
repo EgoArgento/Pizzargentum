@@ -12,6 +12,7 @@ init python:
                 dynamic=True,
                 image="protagonista",
                 who_color="#F50106",
+                who_outlines=[(2, "#7A2626", 0, 0)],
             )
             self.ch3_minijuego_seleccion = []
             self.ch3_karma = 0

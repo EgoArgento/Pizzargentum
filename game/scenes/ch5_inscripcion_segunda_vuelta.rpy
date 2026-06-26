@@ -20,7 +20,7 @@ label ch5_inscripcion_segunda_vuelta:
     protagonista.c "Y así, el tanito reconoció su derrota y me regaló su delantal."
     protagonista.c "¡Y para mejor! Un sastrecito me bordó las palabras. ¡Zarpado, ¿no?!"
 
-    # TODO: agregar CONFUNDIDA
+    # TODO: agregar organizador2 CONFUNDIDA
     organizador2 confundida "¿Y a qué te refieres con el más ca-{nw}"
 
     show organizador1 cansado:

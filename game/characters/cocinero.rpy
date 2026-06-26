@@ -3,7 +3,7 @@ init offset = -1
 define cocinero = Character(
     name="Cocinero",
     image="cocinero",
-    who_color="#afa",
+    who_color="#a7a7a7",
 )
 
 # Trasnformations

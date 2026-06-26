@@ -3,6 +3,8 @@
 init python:
     renpy.music.register_channel("ambient", "sfx", loop=False)
 
+define bgm_un_estate_italiana = "audio/un_estate_italiana.ogg"
+
 screen timed_choice(t, action):
     default remaining = t
 

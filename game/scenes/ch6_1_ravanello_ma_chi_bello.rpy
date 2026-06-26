@@ -93,6 +93,8 @@ label ch6_1_ravanello_ma_chi_bello:
             jump ch6_1_ravanello_ma_chi_bello_2
 
 label ch6_1_ravanello_ma_chi_bello_2:
+    $ protagonista.migrar_data()
+
     protagonista.c confiado "Primero que nada, no sabés a quién te estás enfrentando."
 
     ravanello confundido "{=susurro}¿¡Mah-?!{/=susurro}"
@@ -144,7 +146,9 @@ label ch6_1_ravanello_ma_chi_bello_2:
     protagonista.c "¡Pero nada!"
     protagonista.c "¡Dale! ¡Que pase el que sigue!"
 
-    pause
+    play music bgm_un_estate_italiana loop fadein 0.5
+
+    $ completed_game = True
 
     show screen darkening_overlay(1.0)
     pause 1.0
