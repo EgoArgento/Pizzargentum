@@ -43,10 +43,16 @@ label ch5_inscripcion_segunda_vuelta:
     protagonista.c orgulloso "¡No se diga más! ¡Los voy a recordar cuando me haga famoso!"
 
     play sound sfx_pasos
+    show protagonista:
+        easein 2 xalign 2.0
 
     organizador1 confundido "¡Señor! ¡Se olvida las-!{nw}"
 
     protagonista.c delirante "¡No me extrañen! ¡Les voy a dar un baile a estos y vuelvo!"
+
+    show organizador1 cansado
+    show organizador2 cansada
+
     protagonista.c "¡Se los juro por Dieguito!"
 
     show screen darkening_overlay(1.0)

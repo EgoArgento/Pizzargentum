@@ -1,6 +1,3 @@
-# TODO: Corregir sprites en discusión con Cocinero
-# TODO: Corregir sprites en ch5
-
 define ch4_2_timeout = False
 
 label ch4_2_la_vieja_confiable_fallo_timeout:
@@ -24,7 +21,7 @@ label ch4_2_la_vieja_confiable_fallo:
 
     cocinero "¿Pero qué dice? ¡SALGA AHORA MISMO DE MI COCINA!"
 
-    protagonista.c "Disculpá, disculpá."
+    protagonista.c sin_delantal preocupado "Disculpá, disculpá."
 
     protagonista.c "{=susurro}Siamo fuori...{/=susurro}"
 
@@ -33,7 +30,7 @@ label ch4_2_la_vieja_confiable_fallo:
     play sound sfx_pasos_rapidos volume 2.0
 
     show protagonista:
-        easein 1.5 xalign 1.5
+        easein 1.5 xalign 2.0
 
     pause 1.2
 

@@ -20,19 +20,19 @@ label ch4_1_el_nacimiento_del_dios_de_la_pizza:
 
     cocinero "¿Y usted quién es? ¡¿Qué hace acá?!"
 
-    protagonista.c "Taniiito, ¡ya tardabas mucho!"
+    protagonista.c sin_delantal sonriente "Taniiito, ¡ya tardabas mucho!"
 
     cocinero "¿Pero qué dice? SALGA AHORA MISMO DE MI COCINA."
 
-    protagonista.c "Veníii, te dejo mirar nomás porque sos vos."
+    protagonista.c sin_delantal picaro "Veníii, te dejo mirar nomás porque sos vos."
 
     cocinero "PERO-{nw}"
 
     # TODO: las letras en pantalla se mueven fuera del cajón de diálogo.
     play sound sfx_shh
-    protagonista.c "SHHHHHhhshHSH..."
+    protagonista.c sin_delantal ansioso "SHHHHHhhshHSH..."
 
-    protagonista.c "Mirá... ¡TREMENDA!, ¿no?"
+    protagonista.c sin_delantal delirante "Mirá... ¡TREMENDA!, ¿no?"
 
     cocinero aterrado "¿¿Pero qué hizo??"
 
@@ -42,7 +42,7 @@ label ch4_1_el_nacimiento_del_dios_de_la_pizza:
 
     protagonista.c "¡Vení para acá y dame eso!"
 
-    show protagonista sin_delantal delirante:
+    show protagonista sin_delantal delirante fortissimo:
         xalign 0.0
         easein 0.5 xalign 0.85
 
@@ -96,11 +96,12 @@ label ch4_1_el_nacimiento_del_dios_de_la_pizza:
 
     cocinero "¿PERO QUÉ HACE?"
 
-    protagonista.c delirante "¿Qué hago? ¿QUE QUÉ HAGO? {shader=jitter:1.0,6.0|wave:u__amplitude=3.0:u__frequency=6.0}{b}JAJAJAJA{/b}{/shader}"
+    play sound sfx_laughin volume 2.0
+    protagonista.c ansioso "¿Qué hago? ¿QUE QUÉ HAGO? {shader=jitter:1.0,6.0|wave:u__amplitude=3.0:u__frequency=6.0}{b}JAJAJAJA{/b}{/shader}"
 
-    protagonista.c delirante fortissimo "¡VOY A CONVERTIRME EN EL MEJOR CHEF DE PIZZA!"
+    protagonista.c delirante "¡VOY A CONVERTIRME EN EL MEJOR CHEF DE PIZZA!"
 
-    protagonista.c "¡EL CAPO DE LA PIZZA!"
+    protagonista.c delirante fortissimo "¡EL CAPO DE LA PIZZA!"
 
     stop sound fadeout 1.0
     stop ambient fadeout 1.0
