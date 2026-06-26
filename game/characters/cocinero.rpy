@@ -4,6 +4,7 @@ define cocinero = Character(
     name="Cocinero",
     image="cocinero",
     who_color="#a7a7a7",
+    who_outlines=[(2, "#72281f", 0, 0)],
 )
 
 # Trasnformations

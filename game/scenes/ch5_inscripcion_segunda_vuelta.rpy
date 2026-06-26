@@ -20,7 +20,6 @@ label ch5_inscripcion_segunda_vuelta:
     protagonista.c "Y así, el tanito reconoció su derrota y me regaló su delantal."
     protagonista.c "¡Y para mejor! Un sastrecito me bordó las palabras. ¡Zarpado, ¿no?!"
 
-    # TODO: agregar organizador2 CONFUNDIDA
     organizador2 confundida "¿Y a qué te refieres con el más ca-{nw}"
 
     show organizador1 cansado:
@@ -45,7 +44,6 @@ label ch5_inscripcion_segunda_vuelta:
 
     play sound sfx_pasos
 
-    # TODO: agregar organizador1 CONFUNDIDO
     organizador1 confundido "¡Señor! ¡Se olvida las-!{nw}"
 
     protagonista.c delirante "¡No me extrañen! ¡Les voy a dar un baile a estos y vuelvo!"
